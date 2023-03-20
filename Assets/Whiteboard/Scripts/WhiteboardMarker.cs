@@ -16,9 +16,11 @@ public class WhiteboardMarker : MonoBehaviour
     private bool touchedLastFrame;
     private Vector2 lastTouchPos;
     private Quaternion lastTouchRot;
+    //public DistanceGrabbable otherScript;
 
     void Start()
     {
+        //otherScript = GetComponent<DistanceGrabbable>();
         renderer = tip.GetComponent<Renderer>();
         colors = Enumerable.Repeat(renderer.material.color, penSize * penSize).ToArray();
         tipHeight = tip.localScale.y;
@@ -27,6 +29,11 @@ public class WhiteboardMarker : MonoBehaviour
 
     void Update()
     {
+        //Console.WriteLine(DistanceGrabbable.Targeted);
+        //if (DistanceGrabbable.Targeted)
+        //{
+        //    Console.WriteLine(DistanceGrabbable.Targeted);
+        //}
         Draw();
     }
 
