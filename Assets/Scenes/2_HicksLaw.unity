@@ -5562,7 +5562,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 116
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -5570,8 +5570,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Welcome to intUItive!
 
-    In this game, you will learn about the UI/UX
-    technique Hick''s Law!
+    Here, you will learn about the UI/UX technique
+    Hick''s Law!
 
 
     Click on the Start button to begin.'
