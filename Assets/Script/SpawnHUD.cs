@@ -22,17 +22,18 @@ public class SpawnHUD : MonoBehaviour
         hud.SetActive(true);
         slowUI.SetActive(true);
         fixedUI.SetActive(true);
+        fixedHUD.SetActive(false);
     }
 
-    public void spawnSlowHUD() {
+    public void despawnHUD() {
         hud.SetActive(false);
-        slowHUD.SetActive(true);
+        //slowHUD.SetActive(true);
         fixedHUD.SetActive(false);
     }
 
     public void spawnFixedHUD() {
         hud.SetActive(false);
-        slowHUD.SetActive(false);
+        //slowHUD.SetActive(false);
         fixedHUD.SetActive(true);
     }
 }
