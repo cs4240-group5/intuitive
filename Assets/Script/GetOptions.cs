@@ -10,8 +10,6 @@ public class GetOptions : MonoBehaviour
     public Slider slider;
     //public GameObject options;
 
-    public float currentSliderValue;
-
     public Text boardtext;
     public GameObject[] buttonObjects;
     public GameObject textInst_1;
@@ -26,14 +24,14 @@ public class GetOptions : MonoBehaviour
     void Start()
     {
         // Save the current height of the panel and the starting value of the slider
-        slider.value = 5;    
+        slider.value = buttonObjects.Length;    
     }
 
     void Update()
     {
         // Calculate the percentage change in the slider value
         
-        if(slider.value != 5)
+        if(slider.value != buttonObjects.Length)
         {
             OnSliderValueChanged();
         }
@@ -45,7 +43,7 @@ public class GetOptions : MonoBehaviour
             buttonObjects[i].SetActive(false);
         }
 
-        boardtext.text = "Current Option Count: " + currentSliderValue;
+        boardtext.text = "Current Option Count: " + currentValue;
 
     }
 
