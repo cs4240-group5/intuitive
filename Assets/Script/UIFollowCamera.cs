@@ -19,14 +19,14 @@ public class UIFollowCamera : MonoBehaviour
     void Start()
     {
         offset = transform.position - camera.transform.position;
-        // angleDiff = Quaternion.Angle(gameObject.transform.rotation, camera.rotation);
+        //angleDiff = Quaternion.Angle(GameObject.transform.rotation, camera.rotation);
         angleDiff = Quaternion.Angle(transform.rotation, camera.transform.rotation);
     }
 
     // Update is called once per frame
     void LateUpdate()
     {   
-        //angleDiff = Quaternion.Angle(transform.rotation, camera.transform.rotation);
+        angleDiff = Quaternion.Angle(transform.rotation, camera.transform.rotation);
         if (angleDiff < 0) {
             currZ = offset.z;
             newZ = currZ - currZ* (float) (Math.Cos(angleDiff));
@@ -44,6 +44,6 @@ public class UIFollowCamera : MonoBehaviour
             transform.rotation = camera.transform.rotation;
         } else {}
         // transform.position = camera.transform.position + offset;
-        // transform.RotateAround(camera.transform.position, Vector3.up, angleDiff);
+         transform.RotateAround(camera.transform.position, Vector3.up, angleDiff);
     }
 }

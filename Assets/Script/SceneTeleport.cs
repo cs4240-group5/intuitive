@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneTeleport : MonoBehaviour
 {
+    public GameObject Ui;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +21,9 @@ public class SceneTeleport : MonoBehaviour
 
     public void sceneTeleport() {
         SceneManager.LoadScene("Oculus");
+    }
+
+    public void spawnUI() {
+        Ui.SetActive(true);
     }
 }
