@@ -24,6 +24,8 @@ public class GetOptions : MonoBehaviour
     void Start()
     {
         // Save the current height of the panel and the starting value of the slider
+        slider.minValue = 0;
+        slider.maxValue = buttonObjects.Length;
         slider.value = buttonObjects.Length;    
     }
 
