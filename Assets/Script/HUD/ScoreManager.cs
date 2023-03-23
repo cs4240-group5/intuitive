@@ -20,15 +20,15 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreTextFollow.text = "Tartet shoot\n" + score.ToString();
-        scoreTextFix.text = "Tartet shoot\n" + score.ToString();
+        scoreTextFollow.text = "Target shoot\n" + score.ToString();
+        scoreTextFix.text = "Target shoot\n" + score.ToString();
     }
 
     public void AddPoint(int addScore)
     {
         score += addScore;
         scoreTextFollow.text = "Target shoot\n" + score.ToString();
-        scoreTextFix.text = "Tartet shoot\n" + score.ToString();
+        scoreTextFix.text = "Target shoot\n" + score.ToString();
     }
 
 }
