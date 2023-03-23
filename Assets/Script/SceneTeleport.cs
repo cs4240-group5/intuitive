@@ -19,11 +19,8 @@ public class SceneTeleport : MonoBehaviour
         
     }
 
-    public void sceneTeleport() {
+    public void sceneTeleportOculus() {
         SceneManager.LoadScene("Oculus");
-    }
-
-    public void spawnUI() {
         Ui.SetActive(true);
     }
 }
