@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class SpawnHUD : MonoBehaviour
 {
-    public GameObject hud, slowHUD, fixedHUD, slowUI, fixedUI;
+    public GameObject hud, startWall, fixedHUD, spawnToggleHUD, spawnHUD;
+    private bool toggle = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,22 +19,33 @@ public class SpawnHUD : MonoBehaviour
 
     }
 
-    public void spawnHUD() {
-        hud.SetActive(true);
-        slowUI.SetActive(true);
-        fixedUI.SetActive(true);
-        fixedHUD.SetActive(false);
+    public void toggleHUD() {
+        hud.SetActive(false);
+        startWall.SetActive(false);
+        spawnHUD.SetActive(toggle);
+        spawnToggleHUD.SetActive(true);
+        fixedHUD.SetActive(!toggle);
+        toggle = !toggle;
     }
 
+    /*
+    public void toggleHUD()
+    {
+        hud.SetActive(toggle);
+        fixedHUD.SetActive(!toggle);
+        toggle != toggle;
+    }
+    */
+
+    /*
     public void despawnHUD() {
         hud.SetActive(false);
-        //slowHUD.SetActive(true);
         fixedHUD.SetActive(false);
     }
 
     public void spawnFixedHUD() {
         hud.SetActive(false);
-        //slowHUD.SetActive(false);
         fixedHUD.SetActive(true);
     }
+    */
 }
