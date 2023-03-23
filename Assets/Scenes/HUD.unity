@@ -5679,6 +5679,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleportal
       objectReference: {fileID: 0}
+    - target: {fileID: 936043298584603179, guid: 1c00adbf98542fb44aab280d21abcb28,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: sceneTeleportStartingRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 936043298584603184, guid: 1c00adbf98542fb44aab280d21abcb28,
         type: 3}
       propertyPath: m_RootOrder

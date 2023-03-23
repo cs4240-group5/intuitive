@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneTeleport : MonoBehaviour
 {
-    public GameObject Ui;
+    public GameObject Ui; //test if teleport is working anot
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +19,13 @@ public class SceneTeleport : MonoBehaviour
         
     }
 
-    public void sceneTeleportOculus() {
-        SceneManager.LoadScene("Oculus");
+    public void sceneTeleportStartingRoom() {
+        SceneManager.LoadScene("StartingRoom");
+        Ui.SetActive(true);
+    }
+
+    public void sceneTeleportHUD() {
+        SceneManager.LoadScene("HUD");
         Ui.SetActive(true);
     }
 }
