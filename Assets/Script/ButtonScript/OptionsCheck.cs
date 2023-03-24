@@ -13,6 +13,10 @@ public class OptionsCheck : MonoBehaviour
     public Text currentText;
     public AudioSource audioPlayer;
 
+    public void Start()
+    {
+        moveonButton.transform.localScale = Vector2.zero;
+    }
     // Update is called once per frame
     public void CheckAnswer()
     {
@@ -28,8 +32,8 @@ public class OptionsCheck : MonoBehaviour
         else
         {
             currentText.text = "Nice answer! \nClick to move on.";
-            checkButton.SetActive(false);
-            moveonButton.SetActive(true);
+            checkButton.transform.localScale = Vector2.zero;
+            moveonButton.transform.localScale = Vector2.one;
         }
         
     }

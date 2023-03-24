@@ -15,7 +15,7 @@ public class GetTips : MonoBehaviour
     void Start()
     {
         // Save the current height of the panel and the starting value of the slider
-        slider.value = tips.Length;
+        slider.value = 0;
         slider.minValue = 0;
         slider.maxValue = tips.Length;
     }

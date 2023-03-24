@@ -12,8 +12,11 @@ public class InformationPanel : MonoBehaviour
 
     void Start()
     {
-        tipsPanel.transform.localScale = Vector2.zero;
-        miniGamePanel.transform.localScale = Vector2.zero;
+        //explanationPanel.transform.localScale = Vector2.zero;
+        //tipsPanel.transform.localScale = Vector2.zero;
+        //selectionPanel.transform.localScale = Vector2.zero;
+        //tipsPanel.transform.localScale = Vector2.zero;
+        //miniGamePanel.transform.localScale = Vector2.zero;
     }
 
     // Update is called once per frame
