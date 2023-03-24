@@ -7682,8 +7682,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 931017608}
-        m_TargetAssemblyTypeName: MoveToNext, Assembly-CSharp
-        m_MethodName: clickStart
+        m_TargetAssemblyTypeName: MoveToNext2, Assembly-CSharp
+        m_MethodName: clickNext
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7740,15 +7740,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 931017603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cce7e0e9a057a64bae2fa2504c7f6b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 57d60d17fcc9145448d7b1b056d95490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextButton: {fileID: 931017603}
-  currentboard: {fileID: 1279360655}
-  currentText: {fileID: 1290390461}
-  newboard: {fileID: 0}
-  newText: {fileID: 0}
-  openButton: {fileID: 0}
+  currentPanel: {fileID: 1290390461}
+  newPanel: {fileID: 1863939881}
   audioPlayer: {fileID: 1022536355}
 --- !u!1 &936221357
 GameObject:
