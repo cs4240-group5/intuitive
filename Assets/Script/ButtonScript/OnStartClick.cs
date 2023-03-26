@@ -11,12 +11,20 @@ public class OnStartClick : MonoBehaviour
     public GameObject newText;
     public AudioSource audioPlayer;
 
+    public void Start()
+    {
+        newboard.transform.localScale = Vector2.zero;
+        newText.transform.localScale = Vector2.zero;
+    }
+
     public void clickStart()
     {
-        currentboard.SetActive(false);
-        currentText.SetActive(false);
-        newboard.SetActive(true);
-        newText.SetActive(true);
+        currentboard.transform.localScale = Vector2.zero;
+        currentText.transform.localScale = Vector2.zero;
+        //currentboard.SetActive(false);
+        //currentText.SetActive(false);
+        newboard.transform.LeanScale(Vector2.one, 0.2f);
+        newText.transform.LeanScale(Vector2.one, 0.2f);
         audioPlayer.Play();
     }
 }

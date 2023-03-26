@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Check_1
+  - Check_3
+  - Picture_1
+  - Check_2
+  - Check_4
+  - Picture_2
+  - Picture_3
+  - Picture_4
   layers:
   - Default
   - TransparentFX
