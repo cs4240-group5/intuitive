@@ -7746,6 +7746,8 @@ MonoBehaviour:
   currentPanel: {fileID: 1290390461}
   newPanel: {fileID: 1863939881}
   audioPlayer: {fileID: 1022536355}
+  optionsSlider: {fileID: 0}
+  tipsSlider: {fileID: 0}
 --- !u!1 &936221357
 GameObject:
   m_ObjectHideFlags: 0
@@ -16591,6 +16593,8 @@ GameObject:
   - component: {fileID: 1881757213}
   - component: {fileID: 1881757212}
   - component: {fileID: 1881757211}
+  - component: {fileID: 1881757215}
+  - component: {fileID: 1881757214}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -16661,7 +16665,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1881757212}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1881757215}
+        m_TargetAssemblyTypeName: SceneTeleport, Assembly-CSharp
+        m_MethodName: sceneTeleportStartingRoom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1881757212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16700,6 +16716,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881757209}
   m_CullTransparentMesh: 1
+--- !u!64 &1881757214
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881757209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1881757215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881757209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82890c31445bb234199d7258a74c3670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ui: {fileID: 0}
 --- !u!1 &1885215859
 GameObject:
   m_ObjectHideFlags: 0

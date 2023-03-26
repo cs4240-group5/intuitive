@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ui: {fileID: 936043299274629763}
+  mySceneName: 
 --- !u!33 &936043298584603182
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -338,7 +339,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 936043298584603183}
         m_TargetAssemblyTypeName: SceneTeleport, Assembly-CSharp
-        m_MethodName: sceneTeleportOculus
+        m_MethodName: sceneTeleportStartingRoom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
