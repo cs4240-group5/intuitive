@@ -5,6 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public GameObject target;
+    public AudioClip hitAudio;
 
     private ScoreManager scoreManager;
     private int addPoint = 1;
@@ -25,5 +26,6 @@ public class Target : MonoBehaviour
         target.SetActive(false);
         //scoreManager.AddPoint(addPoint);
         ScoreManager.instance.AddPoint(addPoint);
+        AudioSource.PlayClipAtPoint(hitAudio, transform.position);
     }
 }
