@@ -20,16 +20,15 @@ public class FormCheck : MonoBehaviour
         
     }
 
-    public void OnPointerClick()
+    public void onButtonClick(GameObject clickedObject)
     {   
-        GameObject selectedGameObject = EventSystem.current.currentSelectedGameObject;
-        Image imageComponent = selectedGameObject.GetComponent<Image>();
+        Image imageComponent = clickedObject.GetComponent<Image>();
         imageComponent.color = Color.green;
         if (isSelected)
         {   
             for (int i = 0; i < selectableOptions.Length; i++) 
             {
-                if (selectableOptions[i] != selectedGameObject)
+                if (selectableOptions[i] != clickedObject)
                 {
                     Image currentImage = selectableOptions[i].GetComponent<Image>();
                     currentImage.color = Color.white;
