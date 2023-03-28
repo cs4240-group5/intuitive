@@ -17,20 +17,27 @@ public class GetTips : MonoBehaviour
         // Save the current height of the panel and the starting value of the slider
         slider.value = 0;
         slider.minValue = 0;
-        slider.maxValue = tips.Length;
+        slider.maxValue = tips.Length - 1;
+
+        // hide all tips
+        for (int i = 0; i < slider.maxValue + 1; i++) {
+            tips[i].transform.localScale = Vector2.zero;
+        }
     }
 
     void Update()
     {
         // Calculate the percentage change in the slider value
         int currentValue = (int)Math.Floor(slider.value);
-        for (int i = 0; i < currentValue; i++) {
-            tips[i].SetActive(true);
-        }
-        for (int i = currentValue; i < slider.maxValue; i++) {
-            tips[i].SetActive(false);
-        }
+        tips[currentValue].transform.LeanScale(Vector2.one, 0.3f);
 
+
+        for (int i = 0; i < slider.maxValue + 1; i++) {
+            if (i == currentValue) {
+                continue;
+            }
+            tips[i].transform.localScale = Vector2.zero;
+        }
         boardtext.text = "";
 
     }
