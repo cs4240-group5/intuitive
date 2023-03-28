@@ -5,6 +5,7 @@ using UnityEngine;
 public class TargetCount : MonoBehaviour
 {
     public GameObject targetParent;
+    public GameObject[] targets;
     public float delay = 1;
     float timer;
     private int totalTargetCounts;
@@ -12,7 +13,7 @@ public class TargetCount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        totalTargetCounts = 0;
+        totalTargetCounts = targets.Length;
 
         foreach (Transform child in targetParent.transform)
         {
@@ -27,9 +28,13 @@ public class TargetCount : MonoBehaviour
             timer += Time.deltaTime;
 
             if (timer > delay) {
-                foreach (Transform child in targetParent.transform) 
+                foreach (Transform child in targetParent.transform)
+                //for (int i = 0; i < targets.Length; i++)
                 {
-                    child.gameObject.SetActive(true);
+                    //child.gameObject.transform.localScale = new Vector3(20, 20, 20);
+                    //targets[i].transform.localScale = new Vector3(20f, 20f, 20f);
+                    //child.gameObject.transform.localScale = Vector3.one;
+                    //child.gameObject.SetActive(true);
                 }
             }
             //timer = 0;
@@ -37,6 +42,15 @@ public class TargetCount : MonoBehaviour
 
         if (timer > delay) {
             timer = 0;
+        }
+    }
+
+
+    public void RespawnTargets()
+    {
+        for (int i = 0; i < targets.Length; i++)
+        {
+            targets[i].transform.localScale = new Vector3(20f, 20f, 20f);
         }
     }
 }
