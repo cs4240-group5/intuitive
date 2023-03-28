@@ -34,6 +34,8 @@ public class GetOptions : MonoBehaviour
         for (int i = 0; i < buttonObjects.Length; i++)
         {
             buttonObjects[i].transform.localScale = Vector2.zero;
+            Image imageComponent = buttonObjects[i].GetComponent<Image>();
+            imageComponent.color = new Color(Random.value, Random.value, Random.value);
         }
     }
 
@@ -48,8 +50,6 @@ public class GetOptions : MonoBehaviour
         int currentValue = (int)Math.Floor(slider.value);
         for (int i = 0; i < currentValue; i++) {
             buttonObjects[i].transform.LeanScale(Vector2.one, 0.2f);
-            Image imageComponent = buttonObjects[i].GetComponent<Image>();
-            imageComponent.color = new Color(Random.value, Random.value, Random.value);
         }
         for (int i = currentValue; i < slider.maxValue; i++) {
             buttonObjects[i].LeanScale(Vector2.zero, .2f).setEaseInBack();
