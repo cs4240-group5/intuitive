@@ -12,14 +12,14 @@ public class DragUI : MonoBehaviour
     // Only moves along the axes that are checked/activated.
     // Essentially allows you to constrain movement.
     public void Drag() {
-        float newX = pointer.position.x;
+       // float newX = pointer.position.x;
         float newY = pointer.position.y;
         float newZ = pointer.position.z;
        // float newX = x ? pointer.position.x : transform.position.x;
        // float newY = y ? pointer.position.y : transform.position.y;
        //  float newZ = z ? pointer.position.z : transform.position.z;
 
-        transform.position = new Vector3(newX, newY, newZ);
+        transform.position = new Vector3(transform.position.x, newY, newZ);
     }
     
 }

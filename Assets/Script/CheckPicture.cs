@@ -4,37 +4,44 @@ using UnityEngine;
 
 public class CheckPicture : MonoBehaviour
 {
-    public Renderer objectRenderer;
+    public GameObject checker_1;
+    public GameObject checker_2;
+    public GameObject checker_3;
+    public GameObject checker_4;
 
     // Start is called before the first frame update
     void Start()
     {
-        objectRenderer = gameObject.GetComponent<Renderer>();
+        //objectRenderer = gameObject.GetComponent<Renderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
-    public void OnCollisionEnter (Collision other) {
+    private void OnCollisionEnter (Collision other) {
+        print("collide 1");
+
+        if (gameObject.CompareTag("picture_1") && other.gameObject.CompareTag("pin_1") ) {
     
-        if (gameObject.tag == "picture_1" && other.gameObject.tag == "check_1" ) {
+            print("collide 1");
+            checker_1.GetComponent<MeshRenderer>().material.color = Color.green;
     
-            objectRenderer.material.color = Color.green;
+        } else if (gameObject.CompareTag("picture_2") && other.gameObject.CompareTag("pin_2") ) {
     
-        } else if (gameObject.tag == "picture_2" && other.gameObject.tag == "check_2" ) {
+            print("collide 2");
+            checker_2.GetComponent<MeshRenderer>().material.color = Color.green;
     
-            print ("hooray");
+        } else if (gameObject.CompareTag("picture_3") && other.gameObject.CompareTag("pin_3") ) {
     
-        } else if (gameObject.tag == "picture_3" && other.gameObject.tag == "check_3" ) {
+            print("collide 3");
+            checker_3.GetComponent<MeshRenderer>().material.color = Color.green;
     
-            print ("hooray");
+        } else if (gameObject.CompareTag("picture_4") && other.gameObject.CompareTag("pin_4") ) {
     
-        } else if (gameObject.tag == "picture_4" && other.gameObject.tag == "check_4" ) {
-    
-            print ("hooray");
+            print("collide 4");
+            checker_4.GetComponent<MeshRenderer>().material.color = Color.green;
     
         }
     }
