@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class MoveToNext2 : MonoBehaviour
 {
+    public GameObject panel2UpPanel;
+    public GameObject rightPanel;
     public GameObject currentPanel;
     public GameObject newPanel;
     public AudioSource audioPlayer;
@@ -18,6 +20,7 @@ public class MoveToNext2 : MonoBehaviour
 
     void Start()
     {
+        panel2UpPanel.transform.localScale = Vector2.zero;
         tipsSlider.transform.localScale = Vector2.zero;
         newPanel.transform.localScale = Vector2.zero;
 
@@ -40,6 +43,8 @@ public class MoveToNext2 : MonoBehaviour
         explanationPanel.transform.LeanScale(Vector2.one, 0.3f);
         //tipsPanel.transform.LeanScale(Vector2.zero, 0.3f);
         selectionPanel.LeanScale(Vector2.one, 0.3f);
+        rightPanel.transform.localScale = Vector2.zero;
+        panel2UpPanel.transform.localScale = Vector2.one;
         //tipsPanel.LeanScale(Vector2.zero, 0.3f);
         //miniGamePanel.LeanScale(Vector2.zero, 0.3f);
     }
