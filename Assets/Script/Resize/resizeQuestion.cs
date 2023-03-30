@@ -33,8 +33,6 @@ public class resizeQuestion : MonoBehaviour
         }
 
         // add listener to confirmation button
-        buttonEnter.onClick.AddListener(ConfirmSequence);
-        buttonReset.onClick.AddListener(ResetSequence);
     }
     void AddToSequence(string buttonName)
     {
@@ -43,28 +41,29 @@ public class resizeQuestion : MonoBehaviour
         answerText.text = currentSequence;
 
         // if the current sequence is too long, trim it down
-        if (currentSequence.Length > correctSequence.Length)
+        if (currentSequence.Length > 4)
         {
-            ResetSequence();
+            currentSequence = "";
+            answerText.text = "LONG";
         }
     }
-    void ConfirmSequence()
+    public void ConfirmSequence()
     {
         // if the current sequence matches the correct sequence, trigger the animation
         if (currentSequence == correctSequence)
         {
+            answerText.text = "CORRECT";
             animationobject.GetComponent<Animation>().Play();
             dooropen.PlayAnimation();
         }
         else
-        {            
-            ResetSequence();
+        {
+            currentSequence = "";
             answerText.text = "Wrong";
         }
-        ResetSequence();
     }
 
-    void ResetSequence()
+    public void ResetSequence()
     {
         currentSequence = "";
         answerText.text = currentSequence;

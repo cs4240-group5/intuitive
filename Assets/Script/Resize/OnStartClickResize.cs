@@ -1,16 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- using UnityEngine.UI;
 
-public class MoveToNext : MonoBehaviour
+public class OnStartClickResize : MonoBehaviour
 {
-    public GameObject nextButton;
+
+    public GameObject startButton;
     public GameObject currentboard;
     public GameObject currentText;
     public GameObject newboard;
     public GameObject newText;
-    public Button openButton;
     public AudioSource audioPlayer;
 
     public void clickStart()
