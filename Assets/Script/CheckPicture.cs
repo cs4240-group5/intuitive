@@ -18,11 +18,11 @@ public class CheckPicture : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void OnCollisionEnter (Collision other) {
-    
+        print("collide 1");
+
         if (gameObject.CompareTag("picture_1") && other.gameObject.CompareTag("pin_1") ) {
     
             print("collide 1");
