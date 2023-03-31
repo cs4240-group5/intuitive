@@ -6,6 +6,7 @@ public class DoorScript : MonoBehaviour
 {
     private Animator animator;
     private bool isAnimationEnabled = false;
+    public AudioClip doorOpenSound;
 
     private void Start()
     {
@@ -33,6 +34,11 @@ public class DoorScript : MonoBehaviour
     // Method to be called when the button is clicked
     public void PlayAnimation()
     {
+        // Play door open audio
+        if (isAnimationEnabled == false)
+        {
+            AudioSource.PlayClipAtPoint(doorOpenSound, this.transform.position);
+        }
         // Enable animation playback
         isAnimationEnabled = true;
     }
