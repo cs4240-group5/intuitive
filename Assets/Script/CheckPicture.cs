@@ -18,27 +18,32 @@ public class CheckPicture : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
     }
 
-    private void OnCollisionEnter (Collision other) {
-        print("collide 1");
+    void OnCollisionEnter(Collision other) {
+        if (gameObject.CompareTag("Pin_1"))
+        {
+            print("colliding with picture 3");
+            checker_1.GetComponent<MeshRenderer>().material.color = Color.green;
+        }
 
-        if (gameObject.CompareTag("picture_1") && other.gameObject.CompareTag("pin_1") ) {
+        if (gameObject.CompareTag("Picture_1") && other.gameObject.CompareTag("Pin_1") ) {
     
             print("collide 1");
             checker_1.GetComponent<MeshRenderer>().material.color = Color.green;
     
-        } else if (gameObject.CompareTag("picture_2") && other.gameObject.CompareTag("pin_2") ) {
+        } else if (gameObject.CompareTag("Picture_2") && other.gameObject.CompareTag("Pin_2") ) {
     
             print("collide 2");
             checker_2.GetComponent<MeshRenderer>().material.color = Color.green;
     
-        } else if (gameObject.CompareTag("picture_3") && other.gameObject.CompareTag("pin_3") ) {
+        } else if (gameObject.CompareTag("Picture_3") && other.gameObject.CompareTag("Pin_3") ) {
     
             print("collide 3");
             checker_3.GetComponent<MeshRenderer>().material.color = Color.green;
     
-        } else if (gameObject.CompareTag("picture_4") && other.gameObject.CompareTag("pin_4") ) {
+        } else if (gameObject.CompareTag("Picture_4") && other.gameObject.CompareTag("Pin_4") ) {
     
             print("collide 4");
             checker_4.GetComponent<MeshRenderer>().material.color = Color.green;
