@@ -10,6 +10,7 @@ public class InformationPanel : MonoBehaviour
     public GameObject explanationPanel;
     public GameObject selectionPanel;
     public GameObject miniGameSlider;
+    public GameObject[] UIObjects;
 
     void Start()
     {
@@ -29,7 +30,6 @@ public class InformationPanel : MonoBehaviour
         selectionPanel.transform.localScale = Vector2.zero;
         miniGamePanel.transform.localScale = Vector2.zero;
         miniGameSlider.transform.localScale = Vector2.zero;
-
     }
 
 
@@ -41,7 +41,11 @@ public class InformationPanel : MonoBehaviour
         selectionPanel.transform.LeanScale(Vector2.one, 0.3f);
         miniGamePanel.transform.localScale = Vector2.zero;
         miniGameSlider.transform.localScale = Vector2.zero;
-
+        for (int i = 0; i < UIObjects.Length; i++)
+        {
+            UIObjects[i].transform.localScale = Vector2.zero;
+        }
+        miniGameSlider.transform.localScale = Vector2.zero;
     }
 
     public void ClickMiniGamePanel()
@@ -50,5 +54,10 @@ public class InformationPanel : MonoBehaviour
         miniGameSlider.transform.LeanScale(Vector2.one, 0.3f);
         tipsPanel.transform.localScale = Vector2.zero;
         explanationPanel.transform.localScale = Vector2.zero;
+
+        for (int i = 0; i < UIObjects.Length; i++)
+        {
+            UIObjects[i].SetActive(true);
+        }
     }
 }

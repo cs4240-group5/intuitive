@@ -4239,8 +4239,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422895871}
-  m_LocalRotation: {x: 0.619832, y: -0, z: -0, w: 0.7847346}
-  m_LocalPosition: {x: 0, y: 0, z: -1004.7429}
+  m_LocalRotation: {x: 0.06299201, y: -0, z: -0, w: 0.99801403}
+  m_LocalPosition: {x: 0, y: 0, z: -964}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4249,10 +4249,10 @@ RectTransform:
   - {fileID: 692366915}
   m_Father: {fileID: 71367684}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -2.392, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.223, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 234.80005, y: 543.14606}
+  m_AnchoredPosition: {x: -713.0007, y: -1306.0013}
   m_SizeDelta: {x: 397.3, y: 49.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &422895873
@@ -16910,6 +16910,7 @@ GameObject:
   - component: {fileID: 1824419285}
   - component: {fileID: 1824419287}
   - component: {fileID: 1824419286}
+  - component: {fileID: 1824419288}
   m_Layer: 5
   m_Name: UI Explanation
   m_TagString: Untagged
@@ -16980,6 +16981,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824419284}
   m_CullTransparentMesh: 1
+--- !u!114 &1824419288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824419284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432567d157dd9b1478a34a3d58ae077c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _anchorPrefab: {fileID: 0}
 --- !u!1001 &1826296569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17101,6 +17115,18 @@ MonoBehaviour:
   explanationPanel: {fileID: 1202457572}
   selectionPanel: {fileID: 1811171746}
   miniGameSlider: {fileID: 422895871}
+  UIObjects:
+  - {fileID: 282606883}
+  - {fileID: 1891564568}
+  - {fileID: 1024261267}
+  - {fileID: 454380708}
+  - {fileID: 1447469567}
+  - {fileID: 1101800565}
+  - {fileID: 287345204}
+  - {fileID: 2022827220}
+  - {fileID: 2047399690}
+  - {fileID: 359582976}
+  - {fileID: 1573903459}
 --- !u!1 &1872835298
 GameObject:
   m_ObjectHideFlags: 0

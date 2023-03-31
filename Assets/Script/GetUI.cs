@@ -13,15 +13,13 @@ public class GetUI : MonoBehaviour
 
     void Start()
     {
-        // Save the current height of the panel and the starting value of the slider
         slider.minValue = 0;
         slider.maxValue = UIObjects.Length;
         slider.value = UIObjects.Length;
 
-        // disable second text object.
         for (int i = 0; i < UIObjects.Length; i++)
         {
-            UIObjects[i].transform.localScale = Vector3.zero;
+            UIObjects[i].SetActive(false);
         }
     }
 
@@ -33,11 +31,11 @@ public class GetUI : MonoBehaviour
         int currentValue = (int)Math.Floor(slider.value);
         for (int i = 0; i < currentValue; i++)
         {
-            UIObjects[i].transform.LeanScale(Vector3.one, 0.2f);
+            UIObjects[i].SetActive(true);
         }
         for (int i = currentValue; i < slider.maxValue; i++)
         {
-            UIObjects[i].LeanScale(Vector3.zero, .2f).setEaseInBack();
+            UIObjects[i].SetActive(false);
         }
     }
 
