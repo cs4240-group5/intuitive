@@ -12,11 +12,6 @@ public class InformationPanel : MonoBehaviour
 
     void Start()
     {
-        //explanationPanel.transform.localScale = Vector2.zero;
-        //tipsPanel.transform.localScale = Vector2.zero;
-        //selectionPanel.transform.localScale = Vector2.zero;
-        //tipsPanel.transform.localScale = Vector2.zero;
-        //miniGamePanel.transform.localScale = Vector2.zero;
     }
 
     // Update is called once per frame
@@ -37,7 +32,7 @@ public class InformationPanel : MonoBehaviour
     // go back to selectionPanel.
     public void ClickExplanationPanel()
     {
-        explanationPanel.transform.LeanScale(Vector2.zero, 0.3f);
+        explanationPanel.transform.LeanScale(Vector2.one, 0.3f);
         tipsPanel.transform.localScale = Vector2.zero;
         selectionPanel.transform.LeanScale(Vector2.one, 0.3f);
         miniGamePanel.transform.localScale = Vector2.zero;

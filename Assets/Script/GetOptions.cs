@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class GetOptions : MonoBehaviour
 {
@@ -33,6 +34,8 @@ public class GetOptions : MonoBehaviour
         for (int i = 0; i < buttonObjects.Length; i++)
         {
             buttonObjects[i].transform.localScale = Vector2.zero;
+            Image imageComponent = buttonObjects[i].GetComponent<Image>();
+            imageComponent.color = new Color(Random.value, Random.value, Random.value);
         }
     }
 
@@ -61,5 +64,6 @@ public class GetOptions : MonoBehaviour
         textInst_1.transform.localScale = Vector2.zero;
         textInst_2.transform.LeanScale(Vector2.one, 0.2f);
     }
+
 
 }

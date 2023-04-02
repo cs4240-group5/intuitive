@@ -12,6 +12,12 @@ TagManager:
   - Picture_2
   - Picture_3
   - Picture_4
+  - RoomLight
+  - SamplesInfoPanel
+  - Pin_1
+  - Pin_2
+  - Pin_3
+  - Pin_4
   layers:
   - Default
   - TransparentFX
