@@ -5,6 +5,8 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public GameObject target;
+    //public AudioClip hitAudio;
+    AudioSource targetMusic;
 
     private ScoreManager scoreManager;
     private int addPoint = 1;
@@ -12,6 +14,7 @@ public class Target : MonoBehaviour
     void Start()
     {
         scoreManager = GameObject.Find("Score Manager").GetComponent<ScoreManager>();
+        targetMusic = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,8 +25,13 @@ public class Target : MonoBehaviour
 
     public void targetHit()
     {
-        target.SetActive(false);
+        //target.SetActive(false);
+        //targetMusic.Play();
+        //AudioSource.PlayClipAtPoint(targetMusic.clip, target.transform.position);
+        target.transform.localScale = Vector3.zero;
         //scoreManager.AddPoint(addPoint);
         ScoreManager.instance.AddPoint(addPoint);
+        //AudioSource.PlayClipAtPoint(hitAudio, transform.position);
+        
     }
 }

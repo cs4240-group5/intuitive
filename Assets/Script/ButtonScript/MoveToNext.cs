@@ -19,7 +19,6 @@ public class MoveToNext : MonoBehaviour
         currentText.SetActive(false);
         newboard.SetActive(true);
         newText.SetActive(true);
-        openButton.interactable = false;
         audioPlayer.Play();
     }
 }
