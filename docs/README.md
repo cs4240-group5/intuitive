@@ -1,5 +1,5 @@
 ## intUItive!
-Intuitive (stylised as **intUItive!**) is a project to showcase Virtual Reality (VR) user interface and user interaction (UI/UX) principles in the VR environment itself.
+Intuitive (stylised as **intUItive!**) is a project to showcase Virtual&nbsp;Reality&nbsp;(VR) user&nbsp;interface and user&nbsp;interaction&nbsp;(UI/UX) principles in the VR environment itself.
 
 ## Objectives
 Our project hopes to better internalise design principles through embodied teaching and experience.
