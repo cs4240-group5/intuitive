@@ -130,7 +130,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1658400941}
     m_Modifications:
     - target: {fileID: 936043297835650551, guid: 1c00adbf98542fb44aab280d21abcb28,
         type: 3}
@@ -221,6 +221,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c00adbf98542fb44aab280d21abcb28, type: 3}
@@ -358,9 +373,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Next, we will have a hands-on experience of how the size of the UI can
-    affect a user's experience directly. \n\nIf you are ready, click on the open
-    button on the right side of the control panel to open the door behind you. "
+  m_Text: 'If you are ready, click on the open button on the right side of the control
+    panel to open the door behind you. '
 --- !u!222 &20563108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -421,7 +435,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &94374854
 GameObject:
@@ -693,6 +707,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2216270888a4ced48b33b7b5641611e6, type: 3}
+--- !u!224 &113773847 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+    type: 3}
+  m_PrefabInstance: {fileID: 5784821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &134458329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -901,10 +921,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "It is pleasing to the eye now that the there are less real life movements
-    and more consistency in the UI!\n\nWhen the text is vertically long, users need
-    to carry out more head or eye movement, which causes discomfort or even motion
-    sickness sometimes. \n\nTry clicking on the buttons on the right to see more."
+  m_Text: "When the text is vertically long, users need to carry out more head or
+    eye movement, which causes discomfort or even motion sickness sometimes. \n\nTry
+    clicking on the buttons on the right to see more."
 --- !u!222 &240974551
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1190,7 +1209,7 @@ RectTransform:
   m_Children:
   - {fileID: 855813435}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2608,13 +2627,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 559290528}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1621872144}
+        m_TargetAssemblyTypeName: DoorScript, Assembly-CSharp
+        m_MethodName: PlayAnimation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7783,7 +7802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4897607310870066, guid: a9d2de84afb308a4796cc671d3432b4d, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4897607310870066, guid: a9d2de84afb308a4796cc671d3432b4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9724,6 +9743,7 @@ Transform:
   - {fileID: 2078670382}
   - {fileID: 377792940}
   - {fileID: 50978575}
+  - {fileID: 113773847}
   m_Father: {fileID: 2081565412}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

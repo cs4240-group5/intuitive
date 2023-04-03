@@ -32,25 +32,23 @@ public class resizeQuestion : MonoBehaviour
             button.onClick.AddListener(() => AddToSequence(button.name));
         }
 
-        // add listener to confirmation button
     }
     void AddToSequence(string buttonName)
     {
-        // add the pressed button's number to the current sequence
         currentSequence += buttonName;
         answerText.text = currentSequence;
 
-        // if the current sequence is too long, trim it down
-        if (currentSequence.Length > 4)
+        if (currentSequence.Length == 4)
         {
-            currentSequence = "";
-            answerText.text = "LONG";
+            foreach (Button button in numberButtons)
+            {
+                button.interactable = false;
+            }
         }
     }
     public void ConfirmSequence()
     {
-        // if the current sequence matches the correct sequence, trigger the animation
-        if (currentSequence == correctSequence)
+         if (currentSequence == correctSequence)
         {
             answerText.text = "CORRECT";
             animationobject.GetComponent<Animation>().Play();
@@ -60,6 +58,10 @@ public class resizeQuestion : MonoBehaviour
         {
             currentSequence = "";
             answerText.text = "Wrong";
+            foreach (Button button in numberButtons)
+            {
+                button.interactable = true;
+            }
         }
     }
 
