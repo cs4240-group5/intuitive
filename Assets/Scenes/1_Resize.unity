@@ -130,7 +130,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1658400941}
     m_Modifications:
     - target: {fileID: 936043297835650551, guid: 1c00adbf98542fb44aab280d21abcb28,
         type: 3}
@@ -222,8 +222,34 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.753
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c00adbf98542fb44aab280d21abcb28, type: 3}
+--- !u!224 &5784822 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
+    type: 3}
+  m_PrefabInstance: {fileID: 5784821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &18250215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -358,9 +384,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Next, we will have a hands-on experience of how the size of the UI can
-    affect a user's experience directly. \n\nIf you are ready, click on the open
-    button on the right side of the control panel to open the door behind you. "
+  m_Text: 'If you are ready, click on the open button on the right side of the control
+    panel to open the door behind you. '
 --- !u!222 &20563108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -901,10 +926,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "It is pleasing to the eye now that the there are less real life movements
-    and more consistency in the UI!\n\nWhen the text is vertically long, users need
-    to carry out more head or eye movement, which causes discomfort or even motion
-    sickness sometimes. \n\nTry clicking on the buttons on the right to see more."
+  m_Text: "When the text is vertically long, users need to carry out more head or
+    eye movement, which causes discomfort or even motion sickness sometimes. \n\nTry
+    clicking on the buttons on the right to see more."
 --- !u!222 &240974551
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1190,7 +1214,7 @@ RectTransform:
   m_Children:
   - {fileID: 855813435}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2608,13 +2632,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 559290528}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1621872144}
+        m_TargetAssemblyTypeName: DoorScript, Assembly-CSharp
+        m_MethodName: PlayAnimation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7301,6 +7325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11402b387eff6e444adc8ed4301f3c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorOpenSound: {fileID: 0}
 --- !u!1 &1279360655
 GameObject:
   m_ObjectHideFlags: 0
@@ -9682,6 +9707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11402b387eff6e444adc8ed4301f3c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorOpenSound: {fileID: 0}
 --- !u!95 &1653851638 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95848721263463846, guid: 0242aa8515b4bc947a945a5c6df83ee9,
@@ -9724,6 +9750,7 @@ Transform:
   - {fileID: 2078670382}
   - {fileID: 377792940}
   - {fileID: 50978575}
+  - {fileID: 5784822}
   m_Father: {fileID: 2081565412}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11185,19 +11212,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'As you can see,
+  m_Text: 'Large UI: Difficult to see full view.
+
+    Small UI: Difficult to recognize
+    content.
 
 
-    Large UI: Difficult to see full view.
+    Can you guess what is a good size for this panel?
 
-    Small
-    UI: Difficult to recognize content.
-
-
-    Can you guess what is a good size for
-    this panel?
-
-    Choose a value using the slider and check your answer.
+    Choose
+    a value using the slider and check your answer.
 
 
 '
