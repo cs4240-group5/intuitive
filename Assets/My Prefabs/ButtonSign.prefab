@@ -649,7 +649,9 @@ PrefabInstance:
     - target: {fileID: 6163215897749516567, guid: f964a55c6e8444a40bf145f51de9a72d,
         type: 3}
       propertyPath: m_Text
-      value: OPEN >>
+      value: 'OPEN >>
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f964a55c6e8444a40bf145f51de9a72d, type: 3}
@@ -794,7 +796,9 @@ PrefabInstance:
     - target: {fileID: 6163215897749516567, guid: f964a55c6e8444a40bf145f51de9a72d,
         type: 3}
       propertyPath: m_Text
-      value: << OPEN
+      value: '<< OPEN
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f964a55c6e8444a40bf145f51de9a72d, type: 3}
