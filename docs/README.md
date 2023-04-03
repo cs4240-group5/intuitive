@@ -20,8 +20,8 @@ Labels to be added soon.
 [2. TODO](#)\
 [3. Grabbing](3_Grabbing/grabbing.md)\
 [4. TODO](#)\
-[5. TODO](#)\
-[6. Grabbing](#)
+[5. HUD](5_HUD/hud.md)\
+[6. TODO](#)
 
 ## Screenshots and Demo
 
@@ -34,7 +34,7 @@ TODO: Video and Demo here. Stay tuned!
 
 **Lim Rui Xiong**
 
-**Ng Yu Zhong**
+**Ng Yu Zhong** ([linkedin](https://www.linkedin.com/in/ng-yu-zhong-3ba599142/))
 
 **Park So Hyun**
 
