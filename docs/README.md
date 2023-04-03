@@ -1,5 +1,5 @@
 ## intUItive!
-Intuitive (stylised as **intUItive!**) is a project to showcase Virtual Reality (VR) user interface and user interaction (UI/UX) principles in the VR environment itself.
+Intuitive (stylised as **intUItive!**) is a project to showcase Virtual Reality (VR) user interface and user interaction (UI/UX) principles in the VR environment itself.
 
 ## Objectives
 Our project hopes to better internalise design principles through embodied teaching and experience.
@@ -15,9 +15,14 @@ Below is a guide to the various parts of our project. Our project is split into 
 TODO: Video and Demo here. Stay tuned!
 
 ## Team Information
-- **Choong Zhan Hong** ([linkedin](https://www.linkedin.com/in/choongzhanhong/)/[website](https://choongzhanhong.github.io/))
-- **Christabelle Fredda Thevandi**
-- **Lim Rui Xiong**
-- **Ng Yu Zhong**
-- **Park So Hyun**
-- **Soh Xin Wei**
+**Choong Zhan Hong** ([linkedin](https://www.linkedin.com/in/choongzhanhong/)/[website](https://choongzhanhong.github.io/))
+
+**Christabelle Fredda Thevandi**
+
+**Lim Rui Xiong**
+
+**Ng Yu Zhong**
+
+**Park So Hyun**
+
+**Soh Xin Wei**
