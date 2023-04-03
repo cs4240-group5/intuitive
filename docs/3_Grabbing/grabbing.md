@@ -25,11 +25,6 @@ To summarise the best practices found online (See [References](#height-ref)), th
 	but not while sitting.*
 
 #### References {#height-ref}
-1. [Why changing head height matters](https://www.vrinflux.com/vr-accessibility-why-changing-head-height-matters/)
-2. [Ergonomics in VR Design](https://blog.leapmotion.com/ergonomics-vr-design/)
-3. [VR Design Best Practices](https://medium.com/@LeapMotion/vr-design-best-practices-bb889c2dc70)
-4. [5 things you're doing wrong](https://medium.com/@alan_stafford/virtual-reality-interface-design-5-things-youre-probably-doing-wrong-c5d92260cd87)
-
 ## Affordances for Interaction
 It is important to distinguish interactable objects from environmental or cosmetic elements. In scenarios such as games,
 this gives the user an intuitive grasp of what actions they can take. Your program should thus indicate to the user what are
@@ -37,7 +32,7 @@ the *affordances* of the objects around them.
 
 ### Outlines
 A very simple way to indicate such affordances is through outlining your objects to make them stand out. In my scene, I made use of
-a free and super comprehensive [asset](https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488) that
+a free and super comprehensive asset that
 comes with a variety of outline styles.
 
 To name a few, you can outline objects if they're visible/hidden, or even show a silhouette when it's behind a wall. So,
@@ -50,7 +45,7 @@ also demonstrates a very simple way to differentiate UI from 3D objects — simply
 Most UI interactions use a "laser pointer" to differentiate from 3D objects.
 
 #### References {#affordance_ref}
-1. [Quick Outline](https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488)
+
 
 ---
 **CS4240** Interaction Design for Virtual and Augmented Reality AY2022/2023
