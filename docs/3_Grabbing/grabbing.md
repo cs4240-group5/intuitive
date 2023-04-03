@@ -55,4 +55,4 @@ Most UI interactions use a "laser pointer" to differentiate from 3D objects.
 ---
 **CS4240** Interaction Design for Virtual and Augmented Reality AY2022/2023
  
-Project Group 5 - intUItive! [(Back to main page)](https://cs4240-group5.github.io/intuitive/).
+Project Group 5 - intUItive! [(Back to main page)](../README.md).
