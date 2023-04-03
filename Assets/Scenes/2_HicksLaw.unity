@@ -23716,7 +23716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d60d17fcc9145448d7b1b056d95490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textBoard: {fileID: 0}
+  textBoard: {fileID: 1819214953}
   panel2UpPanel: {fileID: 1578397346}
   rightPanel: {fileID: 951342973}
   currentPanel: {fileID: 1290390461}
