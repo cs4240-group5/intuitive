@@ -900,7 +900,7 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: Resize Scene
+      value: Resizing UI
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
@@ -4877,7 +4877,7 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: Relocating Scene
+      value: UI Relocation
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
@@ -6570,7 +6570,12 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: HUD Scene
+      value: Heads-Up Display (HUD)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
@@ -7340,7 +7345,12 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: Garage Scene
+      value: Grabbing Interactions
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
@@ -8146,7 +8156,7 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: Freeset Scene
+      value: Freeset
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
@@ -8479,6 +8489,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350876972310474, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_Text
+      value: 'To do: Put some instructions for oculus usage here'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1dc434ff9ffea74c84085607a24c21d, type: 3}
@@ -9210,6 +9225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ButtonSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706517896448653, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Text
+      value: 'To do: Put some instructions for oculus usage here'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e90b6034094e134f92c5b158bb3476f, type: 3}
@@ -12197,7 +12217,7 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: HicksLaw Scene
+      value: Hick's Law
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
