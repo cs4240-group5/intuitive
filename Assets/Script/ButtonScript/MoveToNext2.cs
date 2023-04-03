@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class MoveToNext2 : MonoBehaviour
 {
+    public GameObject textBoard;
     public GameObject panel2UpPanel;
     public GameObject rightPanel;
     public GameObject currentPanel;
@@ -45,7 +46,8 @@ public class MoveToNext2 : MonoBehaviour
         selectionPanel.LeanScale(Vector2.one, 0.3f);
         rightPanel.transform.localScale = Vector2.zero;
         panel2UpPanel.transform.localScale = Vector2.one;
-        //tipsPanel.LeanScale(Vector2.zero, 0.3f);
-        //miniGamePanel.LeanScale(Vector2.zero, 0.3f);
-    }
+        textBoard.transform.localScale = Vector2.zero;
+    //tipsPanel.LeanScale(Vector2.zero, 0.3f);
+    //miniGamePanel.LeanScale(Vector2.zero, 0.3f);
+}
 }
