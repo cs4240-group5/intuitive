@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 1246500569648515390}
   - component: {fileID: 1243627179622720695}
   - component: {fileID: 1243627179622720694}
+  - component: {fileID: 1523164772212903945}
   m_Layer: 0
   m_Name: Drill
   m_TagString: Untagged
@@ -164,6 +165,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4286983, y: 1, z: 0.8350618}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1523164772212903945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243501287565579462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.43173724, g: 0.9245283, b: 0.50642693, a: 1}
+  outlineWidth: 1.04
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1243501288831709936
 GameObject:
   m_ObjectHideFlags: 0
