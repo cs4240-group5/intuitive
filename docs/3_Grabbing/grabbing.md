@@ -41,7 +41,7 @@ there's many ways to provide outlines in different scenarios. Imagine: you would
 
 ### Varied Affordances
 Apart from interactions with 3D objects, the user can sometimes interact with UI as well. So, this scene
-also demonstrates a very simple way to differentiate UI from 3D objects — simply using different pointers.
+also demonstrates a very simple way to differentiate UI from 3D objects simply using different pointers.
 Most UI interactions use a "laser pointer" to differentiate from 3D objects.
 
 #### References {#affordance_ref}
