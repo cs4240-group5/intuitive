@@ -9,9 +9,15 @@ public class InformationPanel : MonoBehaviour
     public GameObject miniGamePanel;
     public GameObject explanationPanel;
     public GameObject selectionPanel;
+    public GameObject[] UIObjects;
 
     void Start()
     {
+        tipsPanel.transform.localScale = Vector2.zero;
+        for (int i = 0; i < UIObjects.Length; i++)
+        {
+            UIObjects[i].transform.localScale = Vector2.zero;
+        }
     }
 
     // Update is called once per frame
@@ -26,6 +32,10 @@ public class InformationPanel : MonoBehaviour
         explanationPanel.transform.localScale = Vector2.zero;
         selectionPanel.transform.localScale = Vector2.zero;
         miniGamePanel.transform.localScale = Vector2.zero;
+        for (int i = 0; i < UIObjects.Length; i++)
+        {
+            UIObjects[i].transform.localScale = Vector2.zero;
+        }
     }
 
 
@@ -36,6 +46,10 @@ public class InformationPanel : MonoBehaviour
         tipsPanel.transform.localScale = Vector2.zero;
         selectionPanel.transform.LeanScale(Vector2.one, 0.3f);
         miniGamePanel.transform.localScale = Vector2.zero;
+        for (int i = 0; i < UIObjects.Length; i++)
+        {
+            UIObjects[i].transform.localScale = Vector2.zero;
+        }
     }
 
     public void ClickMiniGamePanel()
@@ -43,5 +57,9 @@ public class InformationPanel : MonoBehaviour
         miniGamePanel.transform.LeanScale(Vector2.one, 0.3f);
         tipsPanel.transform.localScale = Vector2.zero;
         explanationPanel.transform.localScale = Vector2.zero;
+        for (int i = 0; i < UIObjects.Length; i++)
+        {
+            UIObjects[i].transform.localScale = Vector2.one;
+        }
     }
 }
