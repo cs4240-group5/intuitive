@@ -9,6 +9,7 @@ Because VR is a very new platform, the design paradigms are not all set in stone
 Below is a guide to the various parts of our project. Our project is split into 6 scenes. Click to check out each individual scene!
 
 [3. Grabbing (TODO)](3_Grabbing/grabbing.md)
+[5. HUD](5_HUD/hud.md)
 
 ## Screenshots and Demo
 
@@ -21,7 +22,7 @@ TODO: Video and Demo here. Stay tuned!
 
 **Lim Rui Xiong**
 
-**Ng Yu Zhong**
+**Ng Yu Zhong** ([linkedin](https://www.linkedin.com/in/ng-yu-zhong-3ba599142/))
 
 **Park So Hyun**
 
