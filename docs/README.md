@@ -19,7 +19,7 @@ Labels to be added soon.
 [1. TODO](#)\
 [2. TODO](#)\
 [3. Grabbing](3_Grabbing/grabbing.md)\
-[4. TODO](#)\
+[4. Hick's Law](4_HicksLaw/hickslaw.md)\
 [5. HUD](5_HUD/hud.md)\
 [6. TODO](#)
 
