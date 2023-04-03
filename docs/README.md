@@ -8,7 +8,7 @@ Because VR is a very new platform, the design paradigms are not all set in stone
 ## Map
 Below is a guide to the various parts of our project. Our project is split into 6 scenes. Click to check out each individual scene!
 
-[3. Grabbing (TODO)](#)
+[3. Grabbing (TODO)](3_Grabbing/grabbing.md)
 
 ## Screenshots and Demo
 
