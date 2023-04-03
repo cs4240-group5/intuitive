@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4686686082666946750}
   - component: {fileID: 4686686082666946736}
   - component: {fileID: 4686686082666946737}
-  m_Layer: 0
+  - component: {fileID: 8513007750872919600}
+  m_Layer: 6
   m_Name: Pipe_Wrench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,6 +85,23 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &8513007750872919600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4686551387585832710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &4686551389465351236
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,7 +114,7 @@ GameObject:
   - component: {fileID: 4719571734946481120}
   - component: {fileID: 4709571462536856042}
   - component: {fileID: 4749375132970583190}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pipe_Wrench_Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +212,7 @@ GameObject:
   - component: {fileID: 4719571746363774248}
   - component: {fileID: 4709571462131660842}
   - component: {fileID: 4749375123038588128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pipe_Wrench_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +311,7 @@ GameObject:
   - component: {fileID: 4719571733965383830}
   - component: {fileID: 4709571461770781930}
   - component: {fileID: 4749375122627328608}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pipe_Wrench_Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

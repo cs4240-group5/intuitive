@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 3562084234127197941}
   - component: {fileID: 3558166142345979197}
   - component: {fileID: 3558166142345979196}
-  m_Layer: 0
+  - component: {fileID: 3786624447825142744}
+  m_Layer: 6
   m_Name: Axe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,6 +65,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &3786624447825142744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3558592198548093693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &3558592199126833041
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,7 +94,7 @@ GameObject:
   - component: {fileID: 3536478095880397325}
   - component: {fileID: 3544494693973400985}
   - component: {fileID: 3567549004263863439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Axe_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +192,7 @@ GameObject:
   - component: {fileID: 3536478094458570085}
   - component: {fileID: 3544494684997628249}
   - component: {fileID: 3567549015032107787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Axe_Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
