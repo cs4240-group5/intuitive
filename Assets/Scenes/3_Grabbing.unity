@@ -9631,16 +9631,11 @@ PrefabInstance:
     - target: {fileID: 3832350876972310474, guid: d1dc434ff9ffea74c84085607a24c21d,
         type: 3}
       propertyPath: m_Text
-      value: 'While users will differ in height, you should generally place interactable
-        objects between eye to desk level.
-
-
-        Extreme positions may cause
-        strain or affect controller tracking.
-
-
-        Also, design with expectations
-        if your user is supposed to be standing or sitting.'
+      value: "While users will differ in height, you should generally place interactable
+        objects between eye to desk level. \n\nExtreme positions may cause strain
+        or affect controller tracking.\n\nAlso, design with expectations if your
+        user is supposed to be standing or sitting. You can guide user behaviour
+        too (like using angled screens, like the console on the right)."
       objectReference: {fileID: 0}
     - target: {fileID: 3832350877012760693, guid: d1dc434ff9ffea74c84085607a24c21d,
         type: 3}
