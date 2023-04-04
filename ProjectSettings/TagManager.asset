@@ -21,6 +21,8 @@ TagManager:
   - Reset Positions
   - DistanceGrab
   - NormalGrab
+  - loadingDisks
+  - DistanceObjects
   layers:
   - Default
   - TransparentFX
