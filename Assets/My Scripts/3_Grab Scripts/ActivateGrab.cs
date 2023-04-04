@@ -11,11 +11,12 @@ public class ActivateGrab : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isGrabHands = true;
 
         //Find GameObjects with Reset Position (applying to the same objects so reuse tag)
         grabHands = GameObject.FindGameObjectsWithTag("NormalGrab");
         distanceGrabHands = GameObject.FindGameObjectsWithTag("DistanceGrab");
+
+        switchGrabHands(isGrabHands);
     }
 
     public void switchGrabHands(bool isGrab)
