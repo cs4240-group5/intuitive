@@ -14,7 +14,15 @@ public class CountDunks : MonoBehaviour
     }
     private void OnTriggerEnter()
     {
-        text.text = "HOOP IT UP!" +
+        count++;
+        text.text = "HOOP IT UP! " +
+            "DUNKS: " + count;
+    }
+
+    public void ResetDunks()
+    {
+        count = 0;
+        text.text = "HOOP IT UP! " +
             "DUNKS: " + count;
     }
 }
