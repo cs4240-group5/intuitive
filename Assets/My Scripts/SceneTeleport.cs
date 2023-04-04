@@ -7,25 +7,8 @@ public class SceneTeleport : MonoBehaviour
 {
     public GameObject Ui; //test if teleport is working anot
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void sceneTeleportStartingRoom() {
-        SceneManager.LoadScene("StartingRoom");
-        Ui.SetActive(true);
-    }
-
-    public void sceneTeleportHUD() {
-        SceneManager.LoadScene("4_HUD");
+        SceneManager.LoadScene("0_Starting");
         Ui.SetActive(true);
     }
 
@@ -39,23 +22,25 @@ public class SceneTeleport : MonoBehaviour
         Ui.SetActive(true);
     }
 
-    public void sceneTeleportFreeSet() {
-        SceneManager.LoadScene("Free Set");
-        Ui.SetActive(true);
-    }
-
-    public void sceneTeleportGarage() {
+    public void sceneTeleportGarage()
+    {
         SceneManager.LoadScene("3_Grabbing");
         Ui.SetActive(true);
     }
 
-    public void sceneTeleportRelocation() {
-        SceneManager.LoadScene("RelocationDistance");
+    public void sceneTeleportHUD()
+    {
+        SceneManager.LoadScene("4_HUD");
         Ui.SetActive(true);
     }
-    
-    public void sceneTeleportOculus() {
-        SceneManager.LoadScene("Oculus");
+
+    public void sceneTeleportFreeSet() {
+        SceneManager.LoadScene("Free Set"); // Reserved for number 5
+        Ui.SetActive(true);
+    }
+
+    public void sceneTeleportRelocation() {
+        SceneManager.LoadScene("6_Relocation");
         Ui.SetActive(true);
     }
 }
