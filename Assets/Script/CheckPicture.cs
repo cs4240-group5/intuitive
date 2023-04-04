@@ -21,33 +21,37 @@ public class CheckPicture : MonoBehaviour
  
     }
 
-    void OnCollisionEnter(Collision other) {
-        if (gameObject.CompareTag("Picture_3"))
-        {
-            print("colliding with picture 3");
-            checker_1.GetComponent<MeshRenderer>().material.color = Color.green;
-        }
+    void OnTriggerEnter(Collider other) {
 
         if (gameObject.CompareTag("Picture_1") && other.gameObject.CompareTag("Pin_1") ) {
-    
-            print("collide 1");
-            checker_1.GetComponent<MeshRenderer>().material.color = Color.green;
-    
+            checker_1.GetComponent<MeshRenderer>().material.color = Color.green;   
         } else if (gameObject.CompareTag("Picture_2") && other.gameObject.CompareTag("Pin_2") ) {
-    
-            print("collide 2");
-            checker_2.GetComponent<MeshRenderer>().material.color = Color.green;
-    
+            checker_2.GetComponent<MeshRenderer>().material.color = Color.green;   
         } else if (gameObject.CompareTag("Picture_3") && other.gameObject.CompareTag("Pin_3") ) {
-    
-            print("collide 3");
-            checker_3.GetComponent<MeshRenderer>().material.color = Color.green;
-    
+            checker_3.GetComponent<MeshRenderer>().material.color = Color.green;   
         } else if (gameObject.CompareTag("Picture_4") && other.gameObject.CompareTag("Pin_4") ) {
-    
-            print("collide 4");
             checker_4.GetComponent<MeshRenderer>().material.color = Color.green;
-    
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+
+        if (gameObject.CompareTag("Picture_1") && other.gameObject.CompareTag("Pin_1"))
+        {
+            checker_1.GetComponent<MeshRenderer>().material.color = Color.red;
+        }
+        else if (gameObject.CompareTag("Picture_2") && other.gameObject.CompareTag("Pin_2"))
+        {
+            checker_2.GetComponent<MeshRenderer>().material.color = Color.red;
+        }
+        else if (gameObject.CompareTag("Picture_3") && other.gameObject.CompareTag("Pin_3"))
+        {
+            checker_3.GetComponent<MeshRenderer>().material.color = Color.red;
+        }
+        else if (gameObject.CompareTag("Picture_4") && other.gameObject.CompareTag("Pin_4"))
+        {
+            checker_4.GetComponent<MeshRenderer>().material.color = Color.red;
         }
     }
 }
