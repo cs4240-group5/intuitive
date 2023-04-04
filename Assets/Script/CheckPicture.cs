@@ -18,11 +18,11 @@ public class CheckPicture : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+ 
     }
 
     void OnCollisionEnter(Collision other) {
-        if (gameObject.CompareTag("Pin_1"))
+        if (gameObject.CompareTag("Picture_3"))
         {
             print("colliding with picture 3");
             checker_1.GetComponent<MeshRenderer>().material.color = Color.green;
