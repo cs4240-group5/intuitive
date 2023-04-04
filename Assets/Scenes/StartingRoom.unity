@@ -9154,6 +9154,71 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 0.092196584
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.7643734
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.8396226
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.78175056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.16745284
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516060438600, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.25987577
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516464885636, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706516464885647, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1102520565}
+    - target: {fileID: 4305706517048706389, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Text
+      value: test me
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305706517048706389, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4305706517145946105, guid: 1e90b6034094e134f92c5b158bb3476f,
         type: 3}
       propertyPath: m_RootOrder
@@ -9162,12 +9227,12 @@ PrefabInstance:
     - target: {fileID: 4305706517145946105, guid: 1e90b6034094e134f92c5b158bb3476f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.91
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 4305706517145946105, guid: 1e90b6034094e134f92c5b158bb3476f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.47
+      value: 0.255
       objectReference: {fileID: 0}
     - target: {fileID: 4305706517145946105, guid: 1e90b6034094e134f92c5b158bb3476f,
         type: 3}
@@ -9214,10 +9279,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonSign
       objectReference: {fileID: 0}
+    - target: {fileID: 4305706517823203556, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1102520565}
     - target: {fileID: 4305706517896448653, guid: 1e90b6034094e134f92c5b158bb3476f,
         type: 3}
       propertyPath: m_Text
-      value: 'To do: Put some instructions for oculus usage here'
+      value: This is a UI element. You can interact with some elements with the laser
+        pointer on your right controller.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946836251961418111, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_Text
+      value: TEST ME
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946836251961418111, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946836251961418111, guid: 1e90b6034094e134f92c5b158bb3476f,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e90b6034094e134f92c5b158bb3476f, type: 3}
@@ -12548,7 +12634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3832350877380073871}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -1.09, y: 1.99, z: 6.074}
+  m_LocalPosition: {x: -1.362, y: 1.99, z: 6.074}
   m_LocalScale: {x: 2.9506218, y: 2.9506218, z: 2.9506218}
   m_ConstrainProportionsScale: 1
   m_Children:
