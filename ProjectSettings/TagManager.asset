@@ -19,6 +19,8 @@ TagManager:
   - Pin_3
   - Pin_4
   - Reset Positions
+  - DistanceGrab
+  - NormalGrab
   layers:
   - Default
   - TransparentFX
