@@ -41,10 +41,12 @@ public class resizeQuestion : MonoBehaviour
         answerText.text = currentSequence;
 
         // if the current sequence is too long, trim it down
-        if (currentSequence.Length > 4)
+        if (currentSequence.Length == 4)
         {
-            currentSequence = "";
-            answerText.text = "LONG";
+            foreach (Button button in numberButtons)
+            {
+                button.interactable = false;
+            }
         }
     }
     public void ConfirmSequence()
@@ -58,6 +60,10 @@ public class resizeQuestion : MonoBehaviour
         }
         else
         {
+            foreach (Button button in numberButtons)
+            {
+                button.interactable = true;
+            }
             currentSequence = "";
             answerText.text = "Wrong";
         }
