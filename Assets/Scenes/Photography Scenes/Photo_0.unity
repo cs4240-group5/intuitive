@@ -11959,8 +11959,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabBegin: 0.55
   grabEnd: 0.35
-  handInvisibleWhenGrabbing: 0
-  hand: {fileID: 0}
   m_parentHeldObject: 0
   m_moveHandPosition: 0
   m_gripTransform: {fileID: 2088288630}
@@ -12355,3 +12353,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2138908683}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5057348526975559047
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32.059113
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.731861
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.794392
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3647056
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.11591566
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.88047725
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.27984518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 35.264
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -135
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065211, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057348526180065214, guid: 089a26abdd1b855468ff406268ed022b,
+        type: 3}
+      propertyPath: m_Name
+      value: Isocamera
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 089a26abdd1b855468ff406268ed022b, type: 3}
