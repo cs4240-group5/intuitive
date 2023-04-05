@@ -113,7 +113,6 @@ GameObject:
   - component: {fileID: 4684941894276047692}
   - component: {fileID: 4719571734946481120}
   - component: {fileID: 4709571462536856042}
-  - component: {fileID: 4749375132970583190}
   m_Layer: 6
   m_Name: Pipe_Wrench_Wheel
   m_TagString: Untagged
@@ -186,20 +185,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4749375132970583190
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4686551389465351236}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: 04f2bab5eb13736478f88351a1d64bee, type: 3}
 --- !u!1 &4686551389498480466
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +196,6 @@ GameObject:
   - component: {fileID: 4684941895422690896}
   - component: {fileID: 4719571746363774248}
   - component: {fileID: 4709571462131660842}
-  - component: {fileID: 4749375123038588128}
   m_Layer: 6
   m_Name: Pipe_Wrench_Top
   m_TagString: Untagged
@@ -285,20 +269,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4749375123038588128
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4686551389498480466}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 04f2bab5eb13736478f88351a1d64bee, type: 3}
 --- !u!1 &4686551390789751128
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +280,6 @@ GameObject:
   - component: {fileID: 4684941894816377412}
   - component: {fileID: 4719571733965383830}
   - component: {fileID: 4709571461770781930}
-  - component: {fileID: 4749375122627328608}
   m_Layer: 6
   m_Name: Pipe_Wrench_Handle
   m_TagString: Untagged
@@ -384,17 +353,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4749375122627328608
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4686551390789751128}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300006, guid: 04f2bab5eb13736478f88351a1d64bee, type: 3}

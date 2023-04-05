@@ -14,7 +14,10 @@ public class resizeQuestion : MonoBehaviour
     public Button buttonReset;
     public Button buttonEnter;
 
-    public string correctSequence = "4992";
+    public GameObject doorbutton;
+    public GameObject ButtonPanel;
+
+    private string correctSequence = "4992";
     private string currentSequence = "";
     
     public DoorScript dooropen;
@@ -41,10 +44,12 @@ public class resizeQuestion : MonoBehaviour
         answerText.text = currentSequence;
 
         // if the current sequence is too long, trim it down
-        if (currentSequence.Length > 4)
+        if (currentSequence.Length == 4)
         {
-            currentSequence = "";
-            answerText.text = "LONG";
+            foreach (Button button in numberButtons)
+            {
+                button.interactable = false;
+            }
         }
     }
     public void ConfirmSequence()
@@ -53,11 +58,16 @@ public class resizeQuestion : MonoBehaviour
         if (currentSequence == correctSequence)
         {
             answerText.text = "CORRECT";
-            animationobject.GetComponent<Animation>().Play();
-            dooropen.PlayAnimation();
+            doorbutton.SetActive(true);
+            ButtonPanel.SetActive(false);
+
         }
         else
         {
+            foreach (Button button in numberButtons)
+            {
+                button.interactable = true;
+            }
             currentSequence = "";
             answerText.text = "Wrong";
         }

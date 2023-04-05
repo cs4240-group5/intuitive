@@ -41,9 +41,4 @@ public class ButtonVR : MonoBehaviour
             isPressed = false;
         }
     }
-
-    public void ButtonFunction()
-    {
-        // Probably wanna make a new script for this.
-    }
 }
