@@ -10,6 +10,7 @@ The objective of this room is to earn points by '**shooting**' down targets whil
 desktop HUD (heads-up display) in Virtual Environment. 
 HUD many induce motion sickness and obstruct players view. It is best not to use any
 HUD in Virtual environment, change the HUD to a stationery User Interface instead.
+Some example of stationery User Interface could be: attach HUD to hand or game objects.
 
 ## Gameplay
 1. Use the right trigger to interact with any objects in the room.
