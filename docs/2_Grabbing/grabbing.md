@@ -5,9 +5,12 @@ Primary Designer: [Choong Zhan Hong](https://github.com/choongzhanhong)
 The Grabbing Room is meant to embody the concepts around designing for user interaction in VR.
 The most common interaction would often be grabbing of objects, hence the importance of understanding design principles around grabbing and interaction with objects.
 
+![](../MapImages/2_Grab.png)
+
 **Contents**
 - [Overview](#overview)
 - [Designing for Height](#designing-for-height)
+- [Affordances](#affordances-for-interaction)
 
 ## Designing for Height
 VR users can use programmes sitting or standing, and VR affords a wide range of movement, but it is still important to make the movement comfortable. It is thus good to constrain design to the user's own physical constraints, or even the VR headset's technical constraints (such as keeping within tracking range of some VR sets).

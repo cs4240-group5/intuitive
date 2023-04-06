@@ -14,11 +14,11 @@ Our project is split into 6 scenes. Click to check out each individual scene!
 
 Labels to be added soon.
 
-![](images/ISO.png)
+![](MapImages/0_Start.png)
 
 [1. TODO](#)\
 [2. TODO](#)\
-[3. Grabbing](3_Grabbing/grabbing.md)\
+[2. Grabbing](2_Grabbing/grabbing.md)\
 [4. Hick's Law](4_HicksLaw/hickslaw.md)\
 [5. HUD](5_HUD/hud.md)\
 [6. TODO](#)
