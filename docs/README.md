@@ -16,7 +16,7 @@ Labels to be added soon.
 
 ![](images/ISO.png)
 
-[1. UI Distance (Todo)](#)\
+[1. UI Distance](6_Relocation/relocation.md)\
 [2. Grabbing](3_Grabbing/grabbing.md)\
 [3. HUD](HUD/hud.md)\
 [4. UI Height (Todo)](#)\
@@ -38,4 +38,4 @@ TODO: Video and Demo here. Stay tuned!
 
 **Park So Hyun**
 
-**Soh Xin Wei**
+**Soh Xin Wei** ([linkedin](https://www.linkedin.com/in/xiinweii/))
