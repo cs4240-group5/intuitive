@@ -125,6 +125,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &8331103 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1541631060}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &15492211 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5871580711175905434, guid: 5beaa08a9ae4fea43bcd3662bbede9a2,
@@ -635,7 +641,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &331267299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -794,7 +800,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7c8d362ad5605fc4a91257f41ab3ef9e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1030,7 +1036,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Toggle Fixed HUD
+  m_text: Toggle HUD
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1566,8 +1572,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 400}
+  m_AnchoredPosition: {x: 0, y: -1.9}
+  m_SizeDelta: {x: 230, y: 460}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &618674109
 MonoBehaviour:
@@ -1590,7 +1596,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Instruction\nClick on the target to score points. \n\nExperience the horrible
-    of HUD in VR system\n\nFix the HUD in place instead\n"
+    of HUD in VR system\n\nUse the \"Toggle HUD' button to change the HUD Setting\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2645,7 +2651,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7c8d362ad5605fc4a91257f41ab3ef9e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -3398,7 +3404,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7c8d362ad5605fc4a91257f41ab3ef9e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -3599,7 +3605,7 @@ Transform:
   - {fileID: 868326988}
   - {fileID: 1164968043}
   m_Father: {fileID: 2037148221}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1315228497
 PrefabInstance:
@@ -4122,6 +4128,117 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1480340733708693454}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1541631060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2037148221}
+    m_Modifications:
+    - target: {fileID: 3832350875933374727, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_Name
+      value: Console Sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.389164
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.389164
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.389164
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.010131
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.4913998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350875933655729, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350876972310474, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_Text
+      value: Now that you have experience the usual desktop HUD in VR. HUD may induce
+        motion sickness and obstructs players view. It is best not use any HUD. Instead
+        make use of fixed UI.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350876972310474, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 174
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350876972310474, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832350876972310474, guid: d1dc434ff9ffea74c84085607a24c21d,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1dc434ff9ffea74c84085607a24c21d, type: 3}
 --- !u!1 &1550910443
 GameObject:
   m_ObjectHideFlags: 0
@@ -4324,7 +4441,7 @@ Transform:
   - {fileID: 1463196286}
   - {fileID: 954878748}
   m_Father: {fileID: 2037148221}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1584362813
 PrefabInstance:
@@ -5436,6 +5553,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8331103}
   - {fileID: 1254631472}
   - {fileID: 1552891570}
   - {fileID: 887795367}
@@ -5754,8 +5872,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabBegin: 0.55
   grabEnd: 0.35
-  handInvisibleWhenGrabbing: 0
-  hand: {fileID: 0}
   m_parentHeldObject: 0
   m_moveHandPosition: 0
   m_gripTransform: {fileID: 2088288630}
@@ -5942,7 +6058,7 @@ PrefabInstance:
     - target: {fileID: 6973455173136397547, guid: 1c00adbf98542fb44aab280d21abcb28,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c00adbf98542fb44aab280d21abcb28, type: 3}
@@ -5961,7 +6077,7 @@ PrefabInstance:
     - target: {fileID: 1480340734253746354, guid: 5beaa08a9ae4fea43bcd3662bbede9a2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1480340734253746354, guid: 5beaa08a9ae4fea43bcd3662bbede9a2,
         type: 3}
