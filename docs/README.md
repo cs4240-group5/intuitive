@@ -16,12 +16,12 @@ Labels to be added soon.
 
 ![](images/ISO.png)
 
-[1. TODO](#)\
-[2. TODO](#)\
-[3. Grabbing](3_Grabbing/grabbing.md)\
-[4. Hick's Law](4_HicksLaw/hickslaw.md)\
-[5. HUD](5_HUD/hud.md)\
-[6. TODO](#)
+[1. UI Distance (Todo)](#)\
+[2. Grabbing](3_Grabbing/grabbing.md)\
+[3. HUD](HUD/hud.md)\
+[4. UI Height (Todo)](#)\
+[5. UI Resize (Todo)](#)\
+[6. Hick's Law](4_HicksLaw/hickslaw.md)
 
 ## Screenshots and Demo
 
