@@ -20,7 +20,7 @@ Labels to be added soon.
 [2. Grabbing](3_Grabbing/grabbing.md)\
 [3. HUD](HUD/hud.md)\
 [4. UI Height (Todo)](#)\
-[5. UI Resize (Todo)](#)\
+[5. UI Resize (Todo)](#5_UIResize/resize.md)\
 [6. Hick's Law](4_HicksLaw/hickslaw.md)
 
 ## Screenshots and Demo
@@ -36,6 +36,6 @@ TODO: Video and Demo here. Stay tuned!
 
 **Ng Yu Zhong** ([linkedin](https://www.linkedin.com/in/ng-yu-zhong-3ba599142/))
 
-**Park So Hyun**
+**Park So Hyun** ([linkedin](https://www.linkedin.com/in/so-hyun-park-8371b322a/))
 
 **Soh Xin Wei** ([linkedin](https://www.linkedin.com/in/xiinweii/))
