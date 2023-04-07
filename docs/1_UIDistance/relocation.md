@@ -1,4 +1,7 @@
-# UI Distance Room
+---
+title: UI Distance Room
+---
+
 Primary Designer: [Soh Xin Wei](https://github.com/xiinweii98)
 
 Directory

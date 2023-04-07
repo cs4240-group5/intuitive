@@ -1,4 +1,7 @@
-# Hicks Law room
+---
+title: Hick's Law Room
+---
+
 Primary Designer: [Lim Rui Xiong](https://github.com/RuiXiong2211)
 
 Directory
