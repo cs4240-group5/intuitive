@@ -423,6 +423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreTextFollow: {fileID: 1549972809}
   scoreTextFix: {fileID: 1244409372}
+  scoreTextFollowHand: {fileID: 1549972809}
 --- !u!114 &142005967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,15 +1119,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376288407}
-  m_LocalRotation: {x: -0.36066684, y: 0.3606669, z: 0.60821, w: 0.60821}
-  m_LocalPosition: {x: -0.0218, y: 0.1152, z: 0.0308}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: -0.04, y: 0.056, z: -0.055}
+  m_LocalScale: {x: 0.049999993, y: 0.049999997, z: 0.049999997}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 142005965}
-  m_Father: {fileID: 2035619855}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -61.336, y: 0, z: 90}
+  m_Father: {fileID: 2035619856}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!1 &479522128
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,6 +2117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreTextFollow: {fileID: 609359669}
   scoreTextFix: {fileID: 1244409372}
+  scoreTextFollowHand: {fileID: 1549972809}
 --- !u!1 &731756643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,6 +2235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreTextFollow: {fileID: 609359669}
   scoreTextFix: {fileID: 1244409372}
+  scoreTextFollowHand: {fileID: 1549972809}
 --- !u!1001 &735463051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4488,7 +4491,7 @@ GameObject:
   - component: {fileID: 1549972810}
   - component: {fileID: 1549972809}
   m_Layer: 0
-  m_Name: Text Score Follow
+  m_Name: Text Score Follow Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5844,9 +5847,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b388ff4c8d1f3644a143b16d45403ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &2035619855 stripped
+--- !u!4 &2035619856 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4580194091363106, guid: 6fae51a9f4170334e8639e8dbfc0a54b,
+  m_CorrespondingSourceObject: {fileID: 4079432701822800, guid: 6fae51a9f4170334e8639e8dbfc0a54b,
     type: 3}
   m_PrefabInstance: {fileID: 2035619852}
   m_PrefabAsset: {fileID: 0}
