@@ -16,4 +16,4 @@ plugins:
 markdown: kramdown
 
 repository: "cs4240-group5/intuitive"
-github_icon: "Logos/Logo_Square.png"
+github_icon: "Logos/PNG/Logo_Square.png"
