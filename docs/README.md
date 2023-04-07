@@ -18,7 +18,7 @@ Labels to be added soon.
 
 [1. UI Distance](6_Relocation/relocation.md)\
 [2. Grabbing](2_Grabbing/grabbing.md)\
-[3. HUD](HUD/hud.md)\
+[3. HUD](3_HUD/hud.md)\
 [4. UI Height (Todo)](#)\
 [5. UI Resize](5_UIResize/resize.md)\
 [6. Hick's Law](4_HicksLaw/hickslaw.md)
