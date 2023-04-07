@@ -16,12 +16,12 @@ Labels to be added soon.
 
 ![](MapImages/0_Start.png)
 
-[1. TODO](#)\
-[2. TODO](#)\
-[2. Grabbing](2_Grabbing/grabbing.md)\
-[4. Hick's Law](4_HicksLaw/hickslaw.md)\
-[5. HUD](5_HUD/hud.md)\
-[6. TODO](#)
+[1. UI Distance](6_Relocation/relocation.md)\
+[2. Grabbing](3_Grabbing/grabbing.md)\
+[3. HUD](HUD/hud.md)\
+[4. UI Height (Todo)](#)\
+[5. UI Resize (Todo)](#)\
+[6. Hick's Law](4_HicksLaw/hickslaw.md)
 
 ## Screenshots and Demo
 
@@ -38,4 +38,4 @@ TODO: Video and Demo here. Stay tuned!
 
 **Park So Hyun**
 
-**Soh Xin Wei**
+**Soh Xin Wei** ([linkedin](https://www.linkedin.com/in/xiinweii/))
