@@ -14,11 +14,11 @@ Our project is split into 6 scenes. Click to check out each individual scene!
 
 Labels to be added soon.
 
-![](images/ISO.png)
+![](MapImages/0_Start.png)
 
 [1. UI Distance](6_Relocation/relocation.md)\
-[2. Grabbing](3_Grabbing/grabbing.md)\
-[3. HUD](HUD/hud.md)\
+[2. Grabbing](2_Grabbing/grabbing.md)\
+[3. HUD](3_HUD/hud.md)\
 [4. UI Height (Todo)](#)\
 [5. UI Resize](5_UIResize/resize.md)\
 [6. Hick's Law](4_HicksLaw/hickslaw.md)
