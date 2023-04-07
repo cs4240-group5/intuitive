@@ -421,7 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acd0173ea34188c4a9d06abeeefb07eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreTextFollow: {fileID: 1549972809}
+  scoreTextFollow: {fileID: 609359669}
   scoreTextFix: {fileID: 1244409372}
   scoreTextFollowHand: {fileID: 1549972809}
 --- !u!114 &142005967

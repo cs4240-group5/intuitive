@@ -1,0 +1,14 @@
+title: "intUItive!"
+theme: minima
+
+#header_pages:
+#TODO if we have
+
+plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jemoji
+
+markdown: kramdown
+
+repository: "cs4240-group5/intuitive"
+github_icon: "Logos/Logo_Square.png"
