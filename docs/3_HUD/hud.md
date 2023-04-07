@@ -1,4 +1,7 @@
-# HUD room
+---
+title: HUD Room
+---
+
 Primary Designer: [Ng Yu Zhong](https://github.com/yuzhongng)
 
 Directory

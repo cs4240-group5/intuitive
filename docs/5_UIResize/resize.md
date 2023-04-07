@@ -1,4 +1,7 @@
-# UI Resize Room
+---
+title: UI Resize Room
+---
+
 Primary Designer: [Park So Hyun](https://github.com/sallysohyun)
 
 **Contents**

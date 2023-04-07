@@ -1,8 +1,16 @@
-title: "intUItive!"
 theme: minima
+title: intUItive!
+author:
+  name: CS4240-05
 
-#header_pages:
-#TODO if we have
+
+header_pages:
+  - "6_Relocation/relocation.md" #Refactor to 1 later
+  - "2_Grabbing/grabbing.md"
+  - "3_HUD/hud.md"
+  - "1_UIHeight/height.md"
+  - "5_UIResize/resize.md"
+  - "4_HicksLaw/hickslaw.md" #Refactor to 6 later
 
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -11,4 +19,4 @@ plugins:
 markdown: kramdown
 
 repository: "cs4240-group5/intuitive"
-github_icon: "Logos/Logo_Square.png"
+github_icon: "Logos/PNG/Logo_Square.png"
