@@ -1,11 +1,14 @@
-title: "intUItive!"
 theme: minima
+title: intUItive!
+author:
+  name: CS4240-05
+
 
 header_pages:
   - "6_Relocation/relocation.md" #Refactor to 1 later
   - "2_grabbing/grabbing.md"
   - "3_HUD/hud.md"
-  # ui height
+  - "4_UIHeight/ui_height.md"
   - "5_UIResize/resize.md"
   - "4_HicksLaw/hickslaw.md" #Refactor to 6 later
 
