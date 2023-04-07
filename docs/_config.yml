@@ -6,9 +6,9 @@ author:
 
 header_pages:
   - "6_Relocation/relocation.md" #Refactor to 1 later
-  - "2_grabbing/grabbing.md"
+  - "2_Grabbing/grabbing.md"
   - "3_HUD/hud.md"
-  - "4_UIHeight/ui_height.md"
+  - "1_UIHeight/height.md"
   - "5_UIResize/resize.md"
   - "4_HicksLaw/hickslaw.md" #Refactor to 6 later
 
