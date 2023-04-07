@@ -30,7 +30,7 @@ TODO: Video and Demo here. Stay tuned!
 ## Team Information
 **Choong Zhan Hong** ([linkedin](https://www.linkedin.com/in/choongzhanhong/)/[website](https://choongzhanhong.github.io/))
 
-**Christabelle Fredda Thevandi** ([linkedin] (https://www.linkedin.com/in/christabelle-thevandi/))
+**Christabelle Fredda Thevandi** ([linkedin](https://www.linkedin.com/in/christabelle-thevandi/))
 
 **Lim Rui Xiong**
 
