@@ -14,7 +14,7 @@ Our project is split into 6 scenes. Click to check out each individual scene!
 
 Labels to be added soon.
 
-![](images/ISO.png)
+![](MapImages/0_Start.png)
 
 [1. UI Distance](6_Relocation/relocation.md)\
 [2. Grabbing](3_Grabbing/grabbing.md)\
