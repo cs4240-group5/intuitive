@@ -19,7 +19,7 @@ Labels to be added soon.
 [1. UI Distance](6_Relocation/relocation.md)\
 [2. Grabbing](2_Grabbing/grabbing.md)\
 [3. HUD](3_HUD/hud.md)\
-[4. UI Height (Todo)](#)\
+[4. UI Height (Todo)](1_UIHeight/height.md)\
 [5. UI Resize](5_UIResize/resize.md)\
 [6. Hick's Law](4_HicksLaw/hickslaw.md)
 
@@ -30,7 +30,7 @@ TODO: Video and Demo here. Stay tuned!
 ## Team Information
 **Choong Zhan Hong** ([linkedin](https://www.linkedin.com/in/choongzhanhong/)/[website](https://choongzhanhong.github.io/))
 
-**Christabelle Fredda Thevandi**
+**Christabelle Fredda Thevandi** ([linkedin] (https://www.linkedin.com/in/christabelle-thevandi/))
 
 **Lim Rui Xiong**
 
