@@ -11,9 +11,8 @@ experience for themselves what suits their needs.
 Below is a guide to the various parts of our project.
 Our project is split into 6 scenes. Click to check out each individual scene!
 
-Labels to be added soon.
-
-![](MapImages/0_Start.png)
+**The Starting Scene:**
+![Starting Scene](MapImages/0_Start.png)
 
 [1. UI Distance](1_UIDistance/relocation.md)\
 [2. Grabbing](2_Grabbing/grabbing.md)\
@@ -25,6 +24,8 @@ Labels to be added soon.
 ## Screenshots and Demo
 
 TODO: Video and Demo here. Stay tuned!
+
+### View our event poster [here!](CS4240-05_Poster.pdf)
 
 ## Team Information
 **Choong Zhan Hong** ([linkedin](https://www.linkedin.com/in/choongzhanhong/)/[website](https://choongzhanhong.github.io/))
