@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HoverOpenClose : MonoBehaviour
-{
+{   
+    public AudioSource hoverSound;
     // Start is called before the first frame update
     public void Start()
     {
@@ -11,6 +12,7 @@ public class HoverOpenClose : MonoBehaviour
     }
 
     public void Open() {
+        hoverSound.Play();
         transform.LeanScale(Vector2.one, 0.5f);
     }
 
