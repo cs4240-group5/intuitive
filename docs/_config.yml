@@ -3,7 +3,7 @@ description: intUItive! is a VR application to showcase UI/UX design principles.
 logo: /assets/img/logo.png
 author: CS4240-05
 
-header_navigation:
+site_navigation:
   - title: UI Distance
     url: /1_UIDistance/relocation.md
 
@@ -40,6 +40,6 @@ footer_navigation:
 markdown: kramdown
 
 
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
