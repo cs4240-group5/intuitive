@@ -5,22 +5,22 @@ author: CS4240-05
 
 site_navigation:
   - title: UI Distance
-    url: /1_UIDistance/relocation.md
+    url: /docs/1_UIDistance/relocation.md
 
   - title: Grabbing
-    url: /2_Grabbing/grabbing.md
+    url: /docs/2_Grabbing/grabbing.md
 
   - title: HUD
-    url: /3_HUD/hud.md
+    url: /docs/3_HUD/hud.md
 
   - title: UI Height
-    url: /4_UIHeight/height.md
+    url: /docs/4_UIHeight/height.md
 
   - title: UI Resize
-    url: /5_UIResize/resize.md
+    url: /docs/5_UIResize/resize.md
 
   - title: Hick's Law
-    url: /6_Hickslaw/hickslaw.md
+    url: /docs/6_Hickslaw/hickslaw.md
 
 footer_navigation:
   - title: repo
