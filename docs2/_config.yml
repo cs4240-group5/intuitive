@@ -37,6 +37,9 @@ footer_navigation:
 #  - "5_UIResize/resize.md"
 #  - "6_HicksLaw/hickslaw.md"
 
+markdown: kramdown
+
+
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
