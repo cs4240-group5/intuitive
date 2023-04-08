@@ -25,3 +25,5 @@ Some example of stationery User Interface could be: attach HUD to hand or game o
 ## References
 [The effects of different types of HUDs on Cybersickness](https://gupea.ub.gu.se/bitstream/handle/2077/67101/gupea_2077_67101_1.pdf?sequence=1&isAllowed=y)
 
+
+Project Group 5 - intUItive! [(Back to main page)](../README.md).

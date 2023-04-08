@@ -1,39 +1,22 @@
-title: intUItive!
-description: intUItive! is a VR application to showcase UI/UX design principles.
-logo: /assets/img/logo.png
-author: CS4240-05
+theme: minima
+title: "intUItive!"
 
-site_navigation:
-  - title: UI Distance
-    url: /docs/1_UIDistance/relocation.md
+author: 
+  name: "CS4240-05"
 
-  - title: Grabbing
-    url: /docs/2_Grabbing/grabbing.md
+header_pages:
+  - "1_UIDistance/relocation.md"
+  - "2_Grabbing/grabbing.md"
+  - "3_HUD/hud.md"
+  - "4_UIHeight/height.md"
+  - "5_UIResize/resize.md"
+  - "6_HicksLaw/hickslaw.md"
 
-  - title: HUD
-    url: /docs/3_HUD/hud.md
-
-  - title: UI Height
-    url: /docs/4_UIHeight/height.md
-
-  - title: UI Resize
-    url: /docs/5_UIResize/resize.md
-
-  - title: Hick's Law
-    url: /docs/6_Hickslaw/hickslaw.md
-
-footer_navigation:
-  - title: repo
-    url: "https://github.com/cs4240-group5/intuitive"
-
-  - title: Vote for us!
-    url: "https://uvents.nus.edu.sg/event/22nd-steps/vote"
-
-
+plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jemoji
 
 markdown: kramdown
 
-
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-minimal
+repository: "cs4240-group5/intuitive"
+github_icon: "Logos/PNG/Logo_Square.png"

@@ -29,3 +29,7 @@ When designing VR interactions, it's important to consider the placement of inte
 1. [UX + VR: 14 Guidelines for Creating Great First Experiences](https://medium.com/@oneStaci/https-medium-com-ux-vr-18-guidelines-51ef667c2c49)
 2. [VR Design Best Practices](https://medium.com/@LeapMotion/vr-design-best-practices-bb889c2dc70)
 
+---
+**CS4240** Interaction Design for Virtual and Augmented Reality AY2022/2023
+ 
+Project Group 5 - intUItive! [(Back to main page)](../README.md).

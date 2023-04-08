@@ -23,3 +23,7 @@ Fitts' law suggests that size of UI (User Interface) and its elements causes a s
 1. [Fitts's Law: The Importance of Size and Distance in UI Design](https://www.interaction-design.org/literature/article/fitts-s-law-the-importance-of-size-and-distance-in-ui-design)
 2. [How to Design the Best UI for Room-Scale VR](https://www.valtech.com/blog/how-to-design-the-best-ui-for-room-scale-vr/)
 
+---
+**CS4240** Interaction Design for Virtual and Augmented Reality AY2022/2023
+ 
+Project Group 5 - intUItive! [(Back to main page)](../README.md).
