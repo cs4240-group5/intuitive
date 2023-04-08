@@ -1,5 +1,5 @@
 ---
-title: HUD Room
+title: HUD
 ---
 
 Primary Designer: [Ng Yu Zhong](https://github.com/yuzhongng)

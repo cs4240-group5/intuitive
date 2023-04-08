@@ -1,5 +1,5 @@
 ---
-title: Hick's Law Room
+title: Hick's Law
 ---
 
 Primary Designer: [Lim Rui Xiong](https://github.com/RuiXiong2211)

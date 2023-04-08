@@ -1,5 +1,5 @@
 ---
-title: Grabbing Room
+title: Grabbing
 ---
 
 Primary Designer: [Choong Zhan Hong](https://github.com/choongzhanhong)

@@ -1,5 +1,5 @@
 ---
-title: UI Distance Room
+title: UI Distance
 ---
 
 Primary Designer: [Soh Xin Wei](https://github.com/xiinweii98)
