@@ -1,123 +1,43 @@
 ---
 layout: default
 ---
+Intuitive (stylised as **intUItive!**) is a project to showcase Virtual Reality (VR) user interface
+and user interaction (UI/UX) principles in the VR environment itself.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Objectives
+Our project hopes to better internalise design principles through embodied teaching and experience.
+Because VR is a very new platform, the design paradigms are not all set in stone,
+so we wish to allow the user to play around various VR interactions and interfaces in our project to
+experience for themselves what suits their needs.
 
-[Link to another page](./another-page.html).
+## Map
+Below is a guide to the various parts of our project.
+Our project is split into 6 scenes. Click to check out each individual scene!
 
-There should be whitespace between paragraphs.
+Labels to be added soon.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+![](MapImages/0_Start.png)
 
-# Header 1
+[1. UI Distance](1_UIDistance/relocation.md)\
+[2. Grabbing](2_Grabbing/grabbing.md)\
+[3. HUD](3_HUD/hud.md)\
+[4. UI Height](4_UIHeight/height.md)\
+[5. UI Resize](5_UIResize/resize.md)\
+[6. Hick's Law](6_HicksLaw/hickslaw.md)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Screenshots and Demo
 
-## Header 2
+TODO: Video and Demo here. Stay tuned!
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Team Information
+**Choong Zhan Hong** ([linkedin](https://www.linkedin.com/in/choongzhanhong/)/[website](https://choongzhanhong.github.io/))
 
-### Header 3
+**Christabelle Fredda Thevandi** ([linkedin](https://www.linkedin.com/in/christabelle-thevandi/))
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+**Lim Rui Xiong**
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+**Ng Yu Zhong** ([linkedin](https://www.linkedin.com/in/ng-yu-zhong-3ba599142/))
 
-#### Header 4
+**Park So Hyun** ([linkedin](https://www.linkedin.com/in/so-hyun-park-8371b322a/))
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+**Soh Xin Wei** ([linkedin](https://www.linkedin.com/in/xiinweii/))
