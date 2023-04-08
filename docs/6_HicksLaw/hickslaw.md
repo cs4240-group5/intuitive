@@ -1,5 +1,5 @@
 ---
-title: Hick's Law Room
+title: Hick's Law
 ---
 
 Primary Designer: [Lim Rui Xiong](https://github.com/RuiXiong2211)
@@ -28,7 +28,3 @@ Players will get to experience first hand how it feels like to have too many use
 ### References 
 https://lawsofux.com/hicks-law/
 https://blog.hubspot.com/website/information-overload
----
-**CS4240** Interaction Design for Virtual and Augmented Reality AY2022/2023
- 
-Project Group 5 - intUItive! [(Back to main page)](../README.md).
