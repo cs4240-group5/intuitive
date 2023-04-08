@@ -8,19 +8,19 @@ site_navigation:
     url: /1_UIDistance/relocation.md
 
   - title: Grabbing
-    url: 2_Grabbing/grabbing.md
+    url: /2_Grabbing/grabbing.md
 
   - title: HUD
-    url: 3_HUD/hud.md
+    url: /3_HUD/hud.md
 
   - title: UI Height
-    url: 4_UIHeight/height.md
+    url: /4_UIHeight/height.md
 
   - title: UI Resize
-    url: 5_UIResize/resize.md
+    url: /5_UIResize/resize.md
 
   - title: Hick's Law
-    url: 6_Hickslaw/hickslaw.md
+    url: /6_Hickslaw/hickslaw.md
 
 footer_navigation:
   - title: repo
@@ -28,14 +28,8 @@ footer_navigation:
 
   - title: Vote for us!
     url: "https://uvents.nus.edu.sg/event/22nd-steps/vote"
-#
-#header_pages:
-#  - "1_UIDistance/relocation.md"
-#  - "2_Grabbing/grabbing.md"
-#  - "3_HUD/hud.md"
-#  - "4_UIHeight/height.md"
-#  - "5_UIResize/resize.md"
-#  - "6_HicksLaw/hickslaw.md"
+
+
 
 markdown: kramdown
 

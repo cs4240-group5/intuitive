@@ -29,8 +29,3 @@ While distance is certainly an important consideration when designing and positi
 
 ## Reference
 [User Experience Guidelines for Design of Virtual Reality Graphical User Interfaces](http://www.diva-portal.org/smash/get/diva2:939381/FULLTEXT01.pdf)
-
----
-**CS4240** Interaction Design for Virtual and Augmented Reality AY2022/2023
-
-Project Group 5 - intUItive! [(Back to main page)](../README.md).
