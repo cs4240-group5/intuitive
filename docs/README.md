@@ -32,7 +32,7 @@ TODO: Video and Demo here. Stay tuned!
 
 **Christabelle Fredda Thevandi** ([linkedin](https://www.linkedin.com/in/christabelle-thevandi/))
 
-**Lim Rui Xiong**
+**Lim Rui Xiong** ([linkedin](https://www.linkedin.com/in/lim-rui-xiong-332039219/)
 
 **Ng Yu Zhong** ([linkedin](https://www.linkedin.com/in/ng-yu-zhong-3ba599142/))
 
