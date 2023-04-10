@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class MoveToNext2 : MonoBehaviour
 {
-    public GameObject textBoard;
+    public Text textBoard;
     public GameObject panel2UpPanel;
     public GameObject rightPanel;
     public GameObject currentPanel;
@@ -38,7 +38,7 @@ public class MoveToNext2 : MonoBehaviour
         currentPanel.transform.localScale = Vector2.zero;
         newPanel.transform.LeanScale(Vector2.one, 0.3f);
         optionsSlider.transform.localScale = Vector2.zero;
-        tipsSlider.transform.localScale = Vector2.one;
+        tipsSlider.transform.localScale = new Vector2(2.5f, 2.5f);
         audioPlayer.Play();
 
         explanationPanel.transform.LeanScale(Vector2.one, 0.3f);
@@ -46,7 +46,8 @@ public class MoveToNext2 : MonoBehaviour
         selectionPanel.LeanScale(Vector2.one, 0.3f);
         rightPanel.transform.localScale = Vector2.zero;
         panel2UpPanel.transform.localScale = Vector2.one;
-        textBoard.transform.localScale = Vector2.zero;
+        textBoard.text = "Hick's Law";
+        //textBoard.transform.localScale = Vector2.zero;
     //tipsPanel.LeanScale(Vector2.zero, 0.3f);
     //miniGamePanel.LeanScale(Vector2.zero, 0.3f);
 }
