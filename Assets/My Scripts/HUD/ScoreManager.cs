@@ -9,6 +9,7 @@ public class ScoreManager : MonoBehaviour
 
     public Text scoreTextFollow;
     public Text scoreTextFix;
+    public Text scoreTextFollowHand;
 
     static int score = 0;
 
@@ -22,6 +23,7 @@ public class ScoreManager : MonoBehaviour
     {
         scoreTextFollow.text = "Target shoot\n" + score.ToString();
         scoreTextFix.text = "Target shoot\n" + score.ToString();
+        scoreTextFollowHand.text = "Target shoot\n" + score.ToString();
     }
 
     public void AddPoint(int addScore)
@@ -29,6 +31,7 @@ public class ScoreManager : MonoBehaviour
         score += addScore;
         scoreTextFollow.text = "Target shoot\n" + score.ToString();
         scoreTextFix.text = "Target shoot\n" + score.ToString();
+        scoreTextFollowHand.text = "Target shoot\n" + score.ToString();
     }
 
 }
