@@ -16,8 +16,8 @@ public class resizeTester : MonoBehaviour
  //   public Button buttonButton;
 
     public int currentFontSize = 50;
-    public float currentPanelSizeWidth = 1000;
-    public float currentPanelSizeHeight = 500;
+    public float currentPanelSizeWidth = 900;
+    public float currentPanelSizeHeight = 1000;
  //   public float currentButtonSizeWidth = 300;
  //   public float currentButtonSizeHeight = 200;
 
