@@ -12,6 +12,8 @@ header_pages:
   - "5_UIResize/resize.md"
   - "6_HicksLaw/hickslaw.md"
 
+about_us: aboutus.md
+
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jemoji
