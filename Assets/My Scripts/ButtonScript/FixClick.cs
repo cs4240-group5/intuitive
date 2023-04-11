@@ -13,6 +13,14 @@ public class FixClick : MonoBehaviour
     public GameObject defaultText;
     public AudioSource audioPlayer;
 
+    public Text openbuttontext;
+    public Button openbutton;
+
+    public void Start()
+    {
+        openbutton.interactable = false;
+    }
+
     public void ClickStart()
     {
         currentPanel.SetActive(false);
@@ -21,5 +29,8 @@ public class FixClick : MonoBehaviour
         defaultText.SetActive(true);
         fixButton.interactable = false;
         audioPlayer.Play();
+
+        openbutton.interactable = true; 
+        openbuttontext.text = "Click and look behind!";
     }
 }
