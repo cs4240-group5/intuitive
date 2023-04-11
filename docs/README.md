@@ -23,7 +23,8 @@ Our project is split into 6 scenes. Click to check out each individual scene!
 
 ## Screenshots and Demo
 
-TODO: Video and Demo here. Stay tuned!
+### Demo Video ([link](https://youtu.be/HUpCwheWYxQ))
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HUpCwheWYxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### View our event poster [here!](CS4240-05_Poster.pdf)
 
