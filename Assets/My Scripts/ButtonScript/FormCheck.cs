@@ -9,6 +9,8 @@ public class FormCheck : MonoBehaviour
     // Start is called before the first frame update
     public GameObject[] selectableOptions;
     public bool isSelected;
+    public AudioSource audio;
+
     void Start()
     {
         isSelected = false;
@@ -22,6 +24,7 @@ public class FormCheck : MonoBehaviour
 
     public void onButtonClick(GameObject clickedObject)
     {   
+        audio.Play();
         Image imageComponent = clickedObject.GetComponent<Image>();
         imageComponent.color = Color.green;
         if (isSelected)

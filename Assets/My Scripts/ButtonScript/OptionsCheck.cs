@@ -7,11 +7,14 @@ public class OptionsCheck : MonoBehaviour
 {
     // Start is called before the first frame update
     
-    public Slider slider;
+    public GameObject optionScript;
     public GameObject checkButton;
     public GameObject moveonButton;
     public Text currentText;
-    public AudioSource audioPlayer;
+    public AudioSource correctAudio;
+    public AudioSource wrongAudio;
+    private int countVar;
+
 
     public void Start()
     {
@@ -20,17 +23,20 @@ public class OptionsCheck : MonoBehaviour
     // Update is called once per frame
     public void CheckAnswer()
     {
-        audioPlayer.Play();
-        if (slider.value < 4)
-        {
+        countVar = optionScript.GetComponent<GetOptions>().count;
+        if (countVar < 4)
+        {   
+            wrongAudio.Play();
             currentText.text = "Too Little! \nTry again.";
         }
-        else if (slider.value > 6)
+        else if (countVar > 6)
         {
+            wrongAudio.Play();
             currentText.text = "Too Many! \nTry again.";
         }
         else
-        {
+        {   
+            correctAudio.Play();
             currentText.text = "Nice answer! \nClick to move on.";
             checkButton.transform.localScale = Vector2.zero;
             moveonButton.transform.localScale = Vector2.one;

@@ -8,7 +8,9 @@ using Random = UnityEngine.Random;
 
 public class GetOptions : MonoBehaviour
 {
-    public Slider slider;
+    public GameObject increaseButton;
+    public GameObject decreaseButton;
+    public int count;
     //public GameObject options;
 
     public Text boardtext;
@@ -25,9 +27,7 @@ public class GetOptions : MonoBehaviour
     void Start()
     {
         // Save the current height of the panel and the starting value of the slider
-        slider.minValue = 0;
-        slider.maxValue = buttonObjects.Length;
-        slider.value = 0;
+        count = 0;
 
         // disable second text object.
         textInst_2.transform.localScale = Vector2.zero;
@@ -43,15 +43,15 @@ public class GetOptions : MonoBehaviour
     {
         // Calculate the percentage change in the slider value
         
-        if(slider.value != 0)
+        if(count != 0)
         {
             OnSliderValueChanged();
         }
-        int currentValue = (int)Math.Floor(slider.value);
+        int currentValue = count;
         for (int i = 0; i < currentValue; i++) {
             buttonObjects[i].transform.LeanScale(Vector2.one, 0.2f);
         }
-        for (int i = currentValue; i < slider.maxValue; i++) {
+        for (int i = currentValue; i < buttonObjects.Length; i++) {
             buttonObjects[i].LeanScale(Vector2.zero, .2f).setEaseInBack();
         }
 
@@ -65,5 +65,15 @@ public class GetOptions : MonoBehaviour
         textInst_2.transform.LeanScale(Vector2.one, 0.2f);
     }
 
+    public void increment() {
+        if (count < buttonObjects.Length) {
+            count += 1;
+        }
+    }
 
+    public void decrement() {
+        if (count > 0) {
+            count -= 1;
+        }
+    }
 }

@@ -1,4 +1,7 @@
-# Grabbing Room
+---
+title: Grabbing
+---
+
 Primary Designer: [Choong Zhan Hong](https://github.com/choongzhanhong)
 
 ## Overview
@@ -45,8 +48,3 @@ When designing multiple interactions, you may require different indicators. As a
 3. [VR Design Best Practices](https://medium.com/@LeapMotion/vr-design-best-practices-bb889c2dc70)
 4. [5 things you're doing wrong](https://medium.com/@alan_stafford/virtual-reality-interface-design-5-things-youre-probably-doing-wrong-c5d92260cd87)
 5. [Quick Outline](https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488)
-
----
-**CS4240** Interaction Design for Virtual and Augmented Reality AY2022/2023
- 
-Project Group 5 - intUItive! [(Back to main page)](../README.md).
