@@ -27,11 +27,6 @@
 
                 <div>
                     <small>
-                        <a class="page-link no-hover" href="https://github.com/cs4240-group5/intuitive">
-                        [GitHub Repo]
-                        </a>
-                    </small>
-                    <small>
                         <a class="page-link no-hover" href="https://uvents.nus.edu.sg/event/22nd-steps/vote">
                             Vote for us: [CS4240-05]
                         </a>
@@ -40,6 +35,11 @@
                         {%- assign my_page = site.about_us | where: "path", path | first -%}
                         <a class="page-link no-hover" href="{{ my_page.url | relative_url }}">
                             [About Us]
+                        </a>
+                    </small>
+                    <small>
+                        <a class="page-link no-hover" href="https://github.com/cs4240-group5/intuitive">
+                            [GitHub Repo]
                         </a>
                     </small>
                 </div>
