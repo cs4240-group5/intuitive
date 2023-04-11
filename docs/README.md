@@ -29,14 +29,5 @@ Our project is split into 6 scenes. Click to check out each individual scene!
 ### View our event poster [here!](CS4240-05_Poster.pdf)
 
 ## Team Information
-**Choong Zhan Hong** ([linkedin](https://www.linkedin.com/in/choongzhanhong/)/[website](https://choongzhanhong.github.io/))
 
-**Christabelle Fredda Thevandi** ([linkedin](https://www.linkedin.com/in/christabelle-thevandi/))
-
-**Lim Rui Xiong** ([linkedin](https://www.linkedin.com/in/lim-rui-xiong-332039219/)
-
-**Ng Yu Zhong** ([linkedin](https://www.linkedin.com/in/ng-yu-zhong-3ba599142/))
-
-**Park So Hyun** ([linkedin](https://www.linkedin.com/in/so-hyun-park-8371b322a/))
-
-**Soh Xin Wei** ([linkedin](https://www.linkedin.com/in/xiinweii/))
+### Check out our team information [here](aboutus.md).
