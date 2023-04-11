@@ -1,4 +1,3 @@
-## intUItive!
 Intuitive (stylised as **intUItive!**) is a project to showcase Virtual Reality (VR) user interface
 and user interaction (UI/UX) principles in the VR environment itself.
 
@@ -12,27 +11,28 @@ experience for themselves what suits their needs.
 Below is a guide to the various parts of our project.
 Our project is split into 6 scenes. Click to check out each individual scene!
 
-Labels to be added soon.
+**The Starting Scene:**
+![Starting Scene](MapImages/0_Start.png)
 
-![](MapImages/0_Start.png)
-
-[1. UI Distance](6_Relocation/relocation.md)\
+[1. UI Distance](1_UIDistance/relocation.md)\
 [2. Grabbing](2_Grabbing/grabbing.md)\
 [3. HUD](3_HUD/hud.md)\
-[4. UI Height (Todo)](#)\
+[4. UI Height](4_UIHeight/height.md)\
 [5. UI Resize](5_UIResize/resize.md)\
-[6. Hick's Law](4_HicksLaw/hickslaw.md)
+[6. Hick's Law](6_HicksLaw/hickslaw.md)
 
 ## Screenshots and Demo
 
 TODO: Video and Demo here. Stay tuned!
 
+### View our event poster [here!](CS4240-05_Poster.pdf)
+
 ## Team Information
 **Choong Zhan Hong** ([linkedin](https://www.linkedin.com/in/choongzhanhong/)/[website](https://choongzhanhong.github.io/))
 
-**Christabelle Fredda Thevandi**
+**Christabelle Fredda Thevandi** ([linkedin](https://www.linkedin.com/in/christabelle-thevandi/))
 
-**Lim Rui Xiong**
+**Lim Rui Xiong** ([linkedin](https://www.linkedin.com/in/lim-rui-xiong-332039219/)
 
 **Ng Yu Zhong** ([linkedin](https://www.linkedin.com/in/ng-yu-zhong-3ba599142/))
 
