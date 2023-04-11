@@ -6923,7 +6923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ac20df6282234e419ee9915e0fd1676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motionTarget: {fileID: 0}
+  motionTarget: {fileID: 1975983503}
   effectColor: {r: 0, g: 0, b: 0, a: 1}
   effectCoverage: 0.75
   effectFeather: 0.1
