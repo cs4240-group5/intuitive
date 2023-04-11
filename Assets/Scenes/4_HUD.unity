@@ -3028,17 +3028,17 @@ MonoBehaviour:
   useAngularVelocity: 1
   angularVelocityStrength: 1
   angularVelocityMin: 0
-  angularVelocityMax: 180
+  angularVelocityMax: 30
   angularVelocitySmoothing: 0.15
   useAcceleration: 1
   accelerationStrength: 1
   accelerationMin: 0
-  accelerationMax: 180
+  accelerationMax: 30
   accelerationSmoothing: 0.15
-  useVelocity: 0
+  useVelocity: 1
   velocityStrength: 1
   velocityMin: 0
-  velocityMax: 0
+  velocityMax: 2
   velocitySmoothing: 0.15
   motionEffectTarget: {fileID: 0}
   useCounterMotion: 0
