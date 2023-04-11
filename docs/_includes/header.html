@@ -32,7 +32,7 @@
                         </a>
                     </small>
                     <small>
-                        {%- assign my_page = site.about_us | where: "path", path | first -%}
+                        {%- assign my_page = site.pages | where: "path", site.about_us | first -%}
                         <a class="page-link no-hover" href="{{ my_page.url | relative_url }}">
                             [About Us]
                         </a>
