@@ -14,3 +14,8 @@ Because VR is a very new platform, the design paradigms are not all set in stone
 - **Ng Yu Zhong**
 - **Park So Hyun**
 - **Soh Xin Wei**
+
+## Post-Survey
+Please help us by carrying out a post survey: https://docs.google.com/forms/d/e/1FAIpQLSeAKUwxzjNwsT3FGOMb9nw6hWj2tkMd5PuexZa5T_lj9S6uig/viewform?usp=sf_link
+
+
