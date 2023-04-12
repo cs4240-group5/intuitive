@@ -768,7 +768,7 @@ GameObject:
   - component: {fileID: 8932453217017276318}
   - component: {fileID: 8932453217017373376}
   m_Layer: 2
-  m_Name: GRAB HANDS
+  m_Name: OVRPlayer_Custom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
