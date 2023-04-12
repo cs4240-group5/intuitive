@@ -108,9 +108,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9070435824240521572}
   - component: {fileID: 1342894907835314861}
-  - component: {fileID: 8607770295035865252}
   - component: {fileID: 3320192385351235711}
   - component: {fileID: 1796859139153411540}
+  - component: {fileID: 6787855832463039340}
   m_Layer: 6
   m_Name: DistanceHammer
   m_TagString: DistanceObjects
@@ -153,24 +153,6 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &8607770295035865252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9073927720634115116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 0
-  m_snapOrientation: 0
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_materialColorField: 
 --- !u!54 &3320192385351235711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -200,6 +182,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1389709, y: 0.10675611, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6787855832463039340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073927720634115116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+  m_materialColorField: 
 --- !u!1 &9073927721801320360
 GameObject:
   m_ObjectHideFlags: 0
