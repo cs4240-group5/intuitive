@@ -26,6 +26,8 @@ To summarise the best practices found online (See [References](#height-ref)), th
 - Design for standing or sitting users. You can decide beforehand if your user should be standing or sitting.
   - You can guide user's behaviour through built-in constraints. *Example: angled screens that can be viewed while standing but not while sitting.*
 
+This room features shelves, tables, and interactable elements designed to let the user experience different height levels intuitively.
+
 ## Affordances for Interaction
 It is important to distinguish interactable objects from environmental or cosmetic elements. In scenarios such as games, this gives the user an intuitive grasp of what actions they can take. Your program should thus indicate to the user what are the *affordances* of the objects around them.
 
@@ -38,6 +40,14 @@ there's many ways to provide outlines in different scenarios. Imagine: you would
 
 ### Varied Affordances
 Apart from interactions with 3D objects, the user can sometimes interact with UI as well. Our entire project allows users to interact with UI using a laser pointer as an indicator. This scene helps to point out the fact that we can differentiate UI from 3D game objects using different indicators.
+
+### 3D Objects
+This level also contains 3D buttons that are directly interacted through contact with the hand controllers. So, the user gets
+a full overview of the different types of interactable elements and how these feel for the user, when interacted with.
+
+The different types of interactables are also suited to different uses. The red buttons might be suited for infrequent pressing
+as it is hard to press multiple times, or to enable easily holding down the button. 
+So, our red buttons are used to reset objects or to operate the moving shelf, which maps quite well to real-world buttons.
 
 ### Crosshairs and Others
 When designing multiple interactions, you may require different indicators. As an example, you may want to indicate something is grabbable and another thing is interactable (like an object vs a lever). Or, something is grabbable from a distance and another is only grabbable physically. Aside from outlines, you can also use things like crosshairs or changing colour of objects to make them stand out!
