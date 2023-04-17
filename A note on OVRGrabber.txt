@@ -1,0 +1,26 @@
+A note on OVRGrabber.cs
+
+OVRGrabber is a part of the Oculus built-in package. As the package is large, we ignore it in our gitignore. This note documents the changes we made to OVRGrabber.cs. We did not move it out of the directory it came in as there are dependencies inside.
+
+We made simple changes to make the hand invisible when grabbing. To do so, perform the following modifications in OVRGrabber.cs
+(Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs)
+
+Below the class declaration `public class OVRGrabber`, inside, put the following lines (around line 33):
+
+[SerializeField]
+protected bool handInvisibleWhenGrabbing = true; // set to true if you want the hand to be invisible
+public GameObject hand; // the model of the hand to set active/inactive.
+
+in line 311 (or somewhere within that function GrabBegin(), you should be able to see the line: `SetPlayerIgnoreCollision(m_grabbedObj.gameObject, true)`);
+add the following:
+
+hand.SetActive(false); // this will make the hand invsible
+
+Likewise in GrabEnd(), in line 365 or around the line `GrabVolumeEnable(true);`, set:
+
+hand.SetActive(true); // this will make the hand visible again.
+
+Lastly, in the editor, drag the hand model into the hand field. It should be a child of the prefab, like r_hand_skeletal_lowres. You can check/uncheck the boolean to enable/disable this feature.
+Happy Grabbing! Note: DistanceGrabber extends Grabber so these will reflect in both hands.
+
+- Zhan Hong
