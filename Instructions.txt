@@ -1,0 +1,60 @@
+Target Device: Windows
+Unity Version: 2021.3.16f1 (any version should be able to run)
+
+Setup:
+
+How to play:
+Go to Assets -> Scenes -> 0_Instructions -> Game tab -> Click on play
+Run the game in unity editor using the game tab. 
+Player should start in the instruction scene. 
+
+Controls:
+Left Console:
+Left Triger + Left Joystick: Move Faster
+Left Joystick Up: Player Move Forward
+Left Joystick Down: Player Move Backward
+Left Joystick Left: Player Move Left
+Left Joystick Right: Player Move Right
+Left Grip: Grab Objects
+ 
+Right Console:
+Right Triger: Interact with UI
+Right Joystick Left: Player rotate Left
+Right Joystick Right: Player rotate Right
+Right Grip: Grab Objects
+
+0_Instructions Scene:
+Complete in the tutorial in the game scene to move to the next Starting Room
+
+0_Starting Scene:
+After finishing the tutorial, players will be teleported to this room
+Starting Scene contains 6 different teleportal to teleport player to respective Ui/Ux tutorial 
+
+1_Resize Scene:
+Explore UI of different sizes
+Follow the instructions found on the UI
+Adjust the size of the UI as prescibe in the instructions
+
+2_HicksLaw Scene:
+Explore how the number of UI affects player
+Follow the instructions found on the UI
+Adjust the number of UI shown on the screen as indicated by the instructions
+
+3_Grabbing Scene:
+Explore affordance in grabbing interaction
+Gradable objects would be highlighted
+Instructions will be found on the signage
+
+4_HUD Scene:
+Explore the effects of HUD
+Look to right and click on start to start the 'game'
+Shoot 'Targets' to earn points
+Click on "Toggle HUD" to change HUD setting
+
+2D Relocation Scene:
+Explore UI at different Height Level
+Match the painting on the right to the left side of the wall
+
+6_Relocation Scene:
+Explore the UI that are curve vs straight
+Explore UI of different length from the player
