@@ -5499,7 +5499,7 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: UI Relocation
+      value: UI Distance
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
@@ -9153,7 +9153,7 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: 2D Relocation
+      value: UI Height
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
@@ -10766,7 +10766,7 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: UI Relocation
+      value: UI Distance
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
@@ -12084,7 +12084,7 @@ PrefabInstance:
     - target: {fileID: 8637722234322618620, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
       propertyPath: m_Text
-      value: 2D Relocation
+      value: UI Height
       objectReference: {fileID: 0}
     - target: {fileID: 8833481092123021475, guid: 18e2f9d7a2d60b74598b97fd761c3d08,
         type: 3}
